@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        rajdhani: ["Rajdhani", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
       },
     },
   },

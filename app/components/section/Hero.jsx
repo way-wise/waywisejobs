@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import HeroImg from '../../../public/image/Slider-1.jpg'
-
+import HeroImg from '../../../public/image/Slider-1.jpg';
 const Hero = () => {
   return (
     <section>
