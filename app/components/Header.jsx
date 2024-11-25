@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import {usePathname } from 'next/navigation';
 
@@ -12,7 +11,7 @@ const Header = () => {
   return (
     <header className="bg-white flex justify-between items-center">
       <div className="flex items-center font-rubik pl-[50px] pr-[80px] py-[23px] ">
-        <span className="text-[24px] font-bold text-black flex items-center h-[75px]">
+        <span className="text-[24px] font-bold text-black flex items-center h-[65px]">
           WAY-WISE <span className="text-[#FF902E]">JOBS</span>
         </span>
       </div>

@@ -9,7 +9,7 @@ const ContactCard = ({ item }) => {
                     hover:shadow-xl relative overflow-hidden
                     hover:before:content-[''] hover:before:absolute hover:before:bottom-0 hover:before:left-0 
                     hover:before:w-full hover:before:h-1 hover:before:bg-gradient-to-r 
-                    hover:before:from-red-600 hover:before:to-red-400 group mt-6"
+                    hover:before:from-[#FF902E] hover:before:to-orange-300 group mt-6"
     >
       <div className="text-center space-y-2 flex flex-col items-center">
         <h2 className="text-xl font-bold text-gray-800 mb-2">{item.title}</h2>
@@ -30,7 +30,7 @@ const ContactCard = ({ item }) => {
         <p className="text-[#2A37EA] text-[14px] text-center mt-2">
           {item.address}
         </p>
-        <div className="text-[#2A37EA]/50 group-hover:text-[#2A37EA] text-4xl font-bold absolute top-1 right-2">
+        <div className="text-[#FF902E]/40 group-hover:text-[#FF902E] text-[65px] font-medium absolute top-1 right-2">
           {item.number}
         </div>
       </div>

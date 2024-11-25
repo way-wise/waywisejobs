@@ -49,6 +49,10 @@ const ProcessBar = () => {
           </div>
         ))}
       </div>
+      
+
+
+      {/* <div className='border-b border-gray-200 w-full mt-10'></div> */}
     </div>
   );
 }

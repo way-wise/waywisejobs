@@ -22,7 +22,7 @@ const Cta = () => {
           Don’t hesitate, contact us for better help and services.{" "}
           <a
             href="#"
-            className="text-[#FF902E] font-bold relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#2A37EA] after:transition-all after:duration-700 hover:after:w-full"
+            className="text-[#FF902E] font-bold relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#FF902E] after:transition-all after:duration-700 hover:after:w-full"
           >
             VIEW MORE SERVICES +
           </a>

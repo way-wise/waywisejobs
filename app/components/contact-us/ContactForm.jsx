@@ -4,7 +4,7 @@ export const ContactForm = () => {
   return (
     <div className="my-20">
       <div className="max-w-2xl mx-auto">
-        <h3 className="text-3xl font-bold font-rajdhani uppercase mb-8 text-center text-[#2A37EA]">
+        <h3 className="text-3xl font-bold font-rajdhani uppercase mb-8 text-center text-black">
           Get In Touch
         </h3>
         <form className="space-y-6">
@@ -12,26 +12,26 @@ export const ContactForm = () => {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2A37EA] focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF902E] focus:border-transparent"
               required
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2A37EA] focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF902E] focus:border-transparent"
               required
             />
           </div>
           <input
             type="tel"
             placeholder="Phone Number"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2A37EA] focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF902E] focus:border-transparent"
             required
           />
           <textarea
             placeholder="Your Message"
             rows="6"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2A37EA] focus:border-transparent resize-none"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF902E] focus:border-transparent resize-none"
             required
           ></textarea>
           <button

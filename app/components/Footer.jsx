@@ -94,7 +94,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="bg-white/10 text-white px-4 py-2 rounded-md flex-grow focus:outline-none focus:ring-2 focus:ring-red-500"
+                className="bg-white/10 text-white px-4 py-2 rounded-md flex-grow focus:outline-none focus:ring-2 focus:ring-[#FF902E]"
               />
               <button
                 type="submit"
@@ -114,7 +114,7 @@ const Footer = () => {
             <div className="flex items-center gap-6">
               <div className="flex gap-4 text-sm text-gray-400">
                 <p>Developed by</p>
-                <a href="#" className="hover:text-[#2A37EA] transition-colors">
+                <a href="#" className="hover:text-[#FF902E] transition-colors">
                   Way-Wise Tech
                 </a>
               </div>
