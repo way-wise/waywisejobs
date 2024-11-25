@@ -12,25 +12,22 @@ const BreadcrumbSection = () => {
   return (
     <section className="bg-gray-50 py-8">
       <div className="container mx-auto px-4">
-        
         <div className="flex justify-between items-center">
           <h1 className="text-[54px] font-bold font-rajdhani uppercase leading-[64px] text-black">
             {breadcrumbTitle}
-          
           </h1>
-          
+
           <nav className="text-[16px] font-rajdhani uppercase font-bold flex items-center space-x-2">
             <i className="bi bi-house-door-fill"></i>
             <Link href="/" className="text-[#2A37EA] flex items-center">
               HOME
             </Link>
-            <span className="text-red-600">{url}</span>
+            <span className="text-[#FF902E]">{url}</span>
           </nav>
         </div>
       </div>
-      
 
-      <div className="h-1 bg-red-600 mt-4"></div>
+      <div className="h-1 bg-[#FF902E] mt-4"></div>
     </section>
   );
 };

@@ -19,7 +19,7 @@ const HomeInfoCard = () => {
         description: "Projects Completed",
       },
       {
-        background: "#2A37EA",
+        background: "#FF902E",
         color: "#ffffff",
         icon: "bi bi-building",
         title: "100+",

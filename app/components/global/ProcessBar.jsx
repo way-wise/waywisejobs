@@ -37,7 +37,7 @@ const ProcessBar = () => {
             key={step.id}
             className="flex flex-col items-center text-center w-1/4 group"
           >
-            <div className="relative text-[#ee2425] group-hover:text-[#2A37EA] p-4 rounded-full">
+            <div className="relative text-[#FF902E] group-hover:text-[#2A37EA] p-4 rounded-full">
               <i className={`${step.icon} text-[40px]`}></i>
             </div>
             <h3 className="text-[20px] font-rajdhani font-bold mt-4 text-black">

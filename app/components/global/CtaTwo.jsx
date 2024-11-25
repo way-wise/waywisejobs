@@ -1,5 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import React from 'react'
+import CtaIcn from '../../../public/image/icon.svg'
 
 const CtaTwo = () => {
   return (
@@ -12,44 +14,47 @@ const CtaTwo = () => {
           className="object-cover bg-left-bottom"
         />
       </div>
-      <div className="bg-[#2A37EA] p-[30px] w-[40%] absolute -bottom-[50px] left-0">
-        <h2 className="text-[30px] text-white font-rajdhani font-semibold uppercase mt-[15px]">
-          GET YOUR <span className="text-white">FREE</span> CONSLUTING
+      <div className=" bg-white pl-[30px] pb-[30px] pr-[30px] pt-[20px] w-[40%] absolute -bottom-[90px] left-0  border-b-[8px] border-solid border-gray-200">
+        <h2 className="text-[40px] text-black font-rajdhani font-bold uppercase mt-[15px]">
+          GET YOUR <span className="text-[#2A37EA]">FREE</span> CONSULTING
         </h2>
-        <p className="text-[16px] text-gray-300 font-rubik">
+        <p className="text-[16px] text-gray-600 font-rubik">
           {`Don’t hesitate, contact us for better help and services.`}
         </p>
-        <div className="items-center gap-2  mt-[15px]">
+        <div className="items-center gap-2  mt-[30px]">
           <div className="flex items-center gap-4">
-            <i className="bi bi-telephone-fill text-[20px] text-white"></i>
+            <i className="bi bi-telephone-fill text-[20px] text-[#2A37EA]"></i>
             <a
               href="tel:+919876543210"
-              className="text-[24px] text-white font-rajdhani font-bold"
+              className="text-[22px] text-black font-rajdhani font-semibold"
             >
               +91 9876543210
             </a>
-            <span className="text-[16px] text-white font-rubik">Or</span>
+            <span className="text-[16px] text-black font-rubik">Or</span>
             <a
               href="tel:+919876543210"
-              className="text-[24px] text-white font-rajdhani font-bold"
+              className="text-[24px] text-black font-rajdhani font-semibold"
             >
               +91 9876543210
             </a>
           </div>
           <a
             href="mailto:naheantarik@waywisetech.com"
-            className="text-[16px] text-white font-rubik flex items-center gap-4 mt-[15px]"
+            className="text-[22px] text-black font-rajdhani font-semibold flex items-center gap-4 mt-[8px]"
           >
-            <i className="bi bi-envelope-at-fill text-[20px] text-white"></i>
+            <i className="bi bi-envelope-at-fill text-[20px] text-[#2A37EA]"></i>
             naheantarik@waywisetech.com
           </a>
         </div>
-        <div className="mt-[25px]">
-          <div className="font-rajdhani font-bold text-[16px] text-white cursor-pointer uppercase hover:text-[#FF902E]  transition-all duration-300">
+        <div className="mt-[35px] mb-[16px]">
+          <div className="font-rajdhani font-bold text-[20px] hover:text-[#2A37EA] cursor-pointer uppercase text-[#FF902E]  transition-all duration-300">
             <a href="/contact-us" className="inline-block">
               Join us Now +
             </a>
           </div>
+        </div>
+        <div className="absolute -top-10 -right-12">
+          <img src={CtaIcn.src} alt="Icon" className="w-[105px] h-[105px]" />
         </div>
       </div>
     </div>

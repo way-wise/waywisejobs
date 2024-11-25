@@ -33,9 +33,9 @@ const DetailSection = () => {
               >
                 <i
                   className="bi bi-check-circle-fill"
-                  style={{ color: "#2A37EA" }}
+                  style={{ color: "#FF902E" }}
                 ></i>
-                <p className="font-medium font-rubik text-[16px] text-[#2A37EA]">
+                <p className="font-medium font-rubik text-[16px] text-black">
                   {item.title}
                 </p>
               </li>
@@ -51,7 +51,7 @@ const DetailSection = () => {
           </p>
         </div>
         <div className="w-[50%]">
-        <img
+          <img
             src={HomeOne.src}
             alt=""
             className="w-full h-[500px] object-cover rounded-[50px]"

@@ -40,11 +40,12 @@ const Header = () => {
         <a href="#factories" className="hover:text-black font-bold">
           FACTORIES WE WORK
         </a>
-        <a 
-        href="/contact-us" 
-        className={` font-bold hover:text-[#FF902E] ${
+        <a
+          href="/contact-us"
+          className={` font-bold hover:text-[#FF902E] ${
             pathname === "/contact-us" ? "text-[#FF902E]" : "text-black"
-          }`}>
+          }`}
+        >
           CONTACT US
         </a>
       </nav>
@@ -58,11 +59,11 @@ const Header = () => {
             GET A FREE QUOTE +
           </a>
         </div>
-        <div className="bg-[#2A37EA] text-center text-white pr-[50px] pl-[50px] py-[23px]">
-          <p className="text-[14px]  font-normal text-white leading-normal">
+        <div className="bg-[#FF902E] text-center text-white pr-[50px] pl-[50px] py-[20px]">
+          <p className="text-[14px]  font-semibold text-white leading-normal">
             Call Us Now!
           </p>
-          <p className="text-[19px] text-white  font-rajdhani font-bold leading-normal">
+          <p className="text-[19px] text-white  font-rajdhani font-bold leading-normal pt-[4px]">
             +1 (818) 516 0255
           </p>
           <p className="text-[19px] text-white  font-rajdhani font-bold leading-normal">
