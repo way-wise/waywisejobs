@@ -10,8 +10,8 @@ const Card = (cardItem) => {
                     hover:before:from-red-600 hover:before:to-red-400">
       {/* Icon Section */}
       <div className="flex justify-center mb-6 group">
-        <i class={cardItem.icon}
-           style={{fontSize: "52px", color: "#ee2524"}}></i>
+        <i className={cardItem.icon}
+           style={{fontSize: "52px", color: "#2A37EA"}}></i>
       </div>
 
       <h2 className="text-2xl font-bold text-gray-800 text-center mb-4
