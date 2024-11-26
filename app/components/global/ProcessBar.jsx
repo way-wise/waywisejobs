@@ -25,17 +25,17 @@ const ProcessBar = () => {
   ];
 
   return (
-    <div className="container mx-auto pt-52">
-      <div className="mb-[15px]">
-        <h2 className="text-[48px] font-rajdhani font-bold text-black leading-[53px] uppercase text-center">
+    <div className="container mx-auto md:pt-52 pt-[200px]">
+      <div className="md:mb-[15px] mb-[5px]">
+        <h2 className="md:text-[48px] text-[20px] font-rajdhani font-bold text-black leading-[53px] uppercase text-center">
           Our Working Process!
         </h2>
       </div>
-      <div className="flex justify-between items-center gap-8 flex-wrap">
+      <div className="md:flex flex-wrap justify-between items-center gap-8">
         {steps.map((step) => (
           <div
             key={step.id}
-            className="flex flex-col items-center text-center w-1/4 group"
+            className="flex flex-col items-center text-center w-full md:w-1/4 group"
           >
             <div className="relative text-[#FF902E] group-hover:text-[#2A37EA] p-4 rounded-full">
               <i className={`${step.icon} text-[40px]`}></i>

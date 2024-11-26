@@ -41,15 +41,15 @@ const About = () => {
   ];
   return (
     <main>
-      <BreadcrumbSection />
+      <BreadcrumbSection  />
 
-      <section className=" container max-w-[1200px] mx-auto px-4 py-[15px] flex gap-[30px]">
+      <section className=" container mx-auto px-4 md:py-[64px] py-[30px] md:flex gap-[30px]">
         <div>
-          <div className="mb-[30px]">
-            <h4 className="font-rajdhani font-bold text-[16px] leading-[29px] text-[#2A37EA] uppercase mb-[15px]">
+          <div className="md:mb-[30px] mb-[10px]">
+            <h4 className="font-rajdhani font-bold md:text-[16px] text-[14px] leading-[29px] text-[#2A37EA] uppercase mb-[15px]">
               Get informed <span>-</span>
             </h4>
-            <h2 className="font-rajdhani text-[48px] text-black leading-[53px] font-bold uppercase">
+            <h2 className="font-rajdhani md:text-[48px] text-[20px] text-black leading-[53px] font-bold uppercase">
               Let’s Build Something Creative together
             </h2>
           </div>
@@ -62,11 +62,10 @@ const About = () => {
               <p className="font-rajdhani font-bold text-[21px] leading-[30px] text-black">
                 Your Trusted Partner in Garments Export
               </p>
-              
             </div>
           </div>
           <div>
-            <p className="text-[16px] leading-[26px] text-[#707070] mb-[15px]">
+            <p className="text-[16px] leading-[26px] text-[#707070] md:mb-[15px] mb-[20px]">
               Way Wise Trading Limited has quickly established itself as a
               reliable partner for wholesalers and retailers. Our commitment to
               quality, timely delivery, and customer satisfaction has earned us
@@ -82,15 +81,15 @@ const About = () => {
         <img
           src="https://img.freepik.com/premium-photo/portrait-indian-business-people-working-office-corporate-culture-law-firm-teamwork-concept_466689-15333.jpg?uid=P157340327&ga=GA1.1.989845833.1731762232&semt=ais_hybrid"
           alt=""
-          className="w-[80%] h-[700px] object-cover rounded-[30px]"
+          className="md:w-[80%] w-full md:h-[700px] h-[300px] object-cover md:rounded-[30px] rounded-[10px] mt-[30px]"
         />
       </section>
-      <section className=" bg-gray-100 mt-[100px] space-y-10 pt-[100px]">
-        <div className="container max-w-[1200px] mx-auto">
-          <h2 className="font-rajdhani text-center text-[48px] text-black leading-[53px] font-bold uppercase pb-[30px]">
+      <section className=" bg-gray-100 md:mt-[100px] mt-[50px] md:space-y-10 space-y-5 md:pt-[100px] pt-[50px]">
+        <div className="container mx-auto">
+          <h2 className="font-rajdhani text-center md:text-[48px] text-[20px] text-black leading-[53px] font-bold uppercase pb-[30px]">
             We Give Top Production <br /> From Every Angle.
           </h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             {cardData.map((cardItem, index) => (
               <Card
                 key={index}
@@ -102,8 +101,10 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Cta />
-      <CtaTwo />
+      <div className='mb-[200px]'>
+        <Cta />
+        <CtaTwo />
+      </div>
     </main>
   );
 };

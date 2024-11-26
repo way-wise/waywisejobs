@@ -26,11 +26,12 @@ const ContactUs = () => {
       <BreadcrumbSection />
       <section>
         <div className="container mx-auto px-4">
-          <div className='mt-8'>
-            <h2 className="text-[48px] font-bold font-rajdhani uppercase leading-[53px] text-center text-black">
-              Explore Our Office Worldwide
+          <div className="md:mt-[80px] mt-[50px]">
+            <h2 className="md:text-[48px] text-[20px] font-bold font-rajdhani uppercase leading-[53px] text-center text-black">
+              Explore Our <span className="text-[#2A37EA]">Office</span>{" "}
+              Worldwide
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-5">
+            <div className="grid md:grid-cols-2 grid-cols-1 mt-5">
               {contactCardItems.map((item, index) => (
                 <ContactCard key={index} item={item} />
               ))}

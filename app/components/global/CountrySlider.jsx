@@ -10,7 +10,7 @@ import Slider2 from "../../../public/image/2nd-slider-2.jpg";
 import Slider3 from "../../../public/image/2nd-slider-3.jpg";
 import Link from "next/link";
 
-export default function SliderTwo() {
+export default function CountrySlider() {
   const sliderData = [Slider1, Slider2, Slider3];
 
   var settings = {
@@ -52,22 +52,25 @@ export default function SliderTwo() {
   };
 
   return (
-    <div className="relative z-50 px-4 lg:px-8">
-      <Slider {...settings}>
-        {sliderData.map((item, index) => (
-          <Link
-            href="/"
-            className="md:h-[520px] h-[400px] px-[30px] flex justify-center items-center focus:outline-none md:mt-[90px] mt-[220px]"
-            key={index}
-          >
-            <img
-              src={item.src}
-              alt={`slider-${index}`}
-              className="object-cover w-full h-full rounded-lg "
-            />
-          </Link>
-        ))}
-      </Slider>
-    </div>
+    <section>
+      <h2 className="text-center text-[30px] md:text-[48px] font-bold uppercase font-rajdhani mt-[50px] md:mt-[100px]">countries we serve</h2>
+      <div className=" md:px-4 lg:px-8">
+        <Slider {...settings}>
+          {sliderData.map((item, index) => (
+            <div
+              href="/"
+              className=" h-[300px] md:h-[520px] px-[30px] md:flex md:justify-center md:items-center focus:outline-none mt-[50px] md:mt-[90px]"
+              key={index}
+            >
+              <img
+                src={item.src}
+                alt={`slider-${index}`}
+                className="object-cover  w-full h-[300px] md:w-full md:h-full rounded-lg "
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </section>
   );
 }

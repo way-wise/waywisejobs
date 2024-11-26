@@ -30,7 +30,7 @@ const ContactCard = ({ item }) => {
         <p className="text-[#2A37EA] text-[14px] text-center mt-2">
           {item.address}
         </p>
-        <div className="text-[#FF902E]/40 group-hover:text-[#FF902E] text-[65px] font-medium absolute top-1 right-2">
+        <div className="text-[#FF902E]/40 group-hover:text-[#FF902E] text-[65px] font-medium absolute -top-[12px] right-4">
           {item.number}
         </div>
       </div>
