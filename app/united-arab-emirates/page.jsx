@@ -13,6 +13,8 @@ import ServiceImgFour from '../../public/image/country-page/Service-4.png'
 
 const UnitedArabEmirates = () => {
 
+  
+
   const ServiceOne = {
     title: "GET YOUR FREE CONSULTING",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec ante eget erat rutrum tempor. In finibus ullamcorper mollis. Nulla ut enim nec lectus finibus viverra id ut est. Curabitur pharetra non leo a tempus. Duis porta lacus vehicula ligula varius, nec mollis neque pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras feugiat orci vitae lacinia faucibus. Morbi molestie faucibus augue, in volutpat tortor luctus quis. Aenean bibendum ligula luctus lorem pharetra pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -41,6 +43,8 @@ const UnitedArabEmirates = () => {
     title2: "United Arab Emirates",
     image: HeroUae.src,
   }
+
+    
 
   return (
     <main>

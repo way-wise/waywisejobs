@@ -55,7 +55,7 @@ const Header = () => {
       <div className="hidden md:flex flex-col md:flex-row items-center mt-4 md:mt-0">
         <div className="pr-4 md:pr-[50px]">
           <a
-            href="#quote"
+            href="/contact-us"
             className="font-rajdhani bg-transparent text-[14px] md:text-[18px] border-2 py-[8px] px-[16px] md:py-[14px] md:px-[30px] rounded-[5px] border-solid border-[#2A37EA] text-[#2A37EA] hover:bg-[#2A37EA] hover:text-white font-bold"
           >
             GET A FREE QUOTE +

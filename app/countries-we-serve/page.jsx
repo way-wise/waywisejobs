@@ -1,6 +1,5 @@
 import React from 'react'
 import { ServiceCard } from '@/app/components/countries-we-serve/ServiceCard'
-import Cta from '../components/global/Cta'
 import CtaTwo from '../components/global/CtaTwo'
 import UsaImg from '../../public/image/UsaImg.png'
 import HeroImg from '../components/global/HeroImg'
@@ -69,8 +68,7 @@ const CountriesWeServe = () => {
           ))}
         </div>
       </section>
-      <div className="mb-[200px]">
-        <Cta />
+      <div className="mt-[50px] mb-[200px]">
         <CtaTwo />
       </div>
     </main>

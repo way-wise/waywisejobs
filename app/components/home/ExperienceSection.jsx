@@ -22,7 +22,7 @@ const ExperienceSection = () => {
               <p className="w-full mt-auto md:text-[16px] text-[14px] font-medium text-white leading-[28px] font-rajdhani md:pl-[45px] md:pb-[64px] ">
                 We’re ready to discover and unlock your market.{" "}
                 <a
-                  href="#"
+                  href="/contact-us"
                   className="text-[#FF902E] font-bold uppercase relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#FF902E] after:transition-all after:duration-700 hover:after:w-full"
                 >
                   Get In Touch +
