@@ -1,12 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import BreadcrumbSection from '../components/section/BreadcrumbSection';
-import Card from '../components/global/card';
+import Card from '../components/global/Card';
 import Cta from '../components/global/Cta';
 import CtaTwo from '../components/global/CtaTwo';
 import List from '../components/global/List';
-import BannerLine from '../../public/image/bannerline-1.png'
-import Image from 'next/image';
 
 
 const About = () => {
