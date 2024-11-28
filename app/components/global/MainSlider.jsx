@@ -65,7 +65,7 @@ export default function MainSlider() {
             alt=""
             className="object-cover w-full h-full border-none"
           />
-          <div className="absolute top-[130px] md:top-1/2 md:left-[200px] md:-translate-y-1/2 md:max-w-4xl text-center">
+          <div className="absolute top-[130px] md:top-1/2 md:left-[200px] md:-translate-y-1/2 md:max-w-4xl text-center md:text-left">
             <div className="text-[10px] md:text-2xl font-bold text-white  bg-[#FF902E] inline-block px-4 py-2 rounded-md">
               <p className="">Lorem ipsum dolor sit.</p>
             </div>

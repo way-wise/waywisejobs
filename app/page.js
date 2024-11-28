@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <MainSlider />
       <HomeInfoCard />
-      <CountrySlider />
+      {/* <CountrySlider /> */}
       <DetailSlider />
       <DetailSection />
       <Cta />

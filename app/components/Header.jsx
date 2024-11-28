@@ -61,9 +61,9 @@ const Header = () => {
             GET A FREE QUOTE +
           </a>
         </div>
-        <div className="bg-[#FF902E] flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 md:pr-[50px] md:pl-[34px] py-[12px] md:py-[24px]">
+        <div className="bg-[#FF902E] flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 md:pr-[50px] md:pl-[34px] py-[12px] md:py-[26px]">
           <i className="bi bi-telephone-fill text-[20px] md:text-[26px]"></i>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <a
               href="tel:+18185160255"
               className="text-[16px] md:text-[20px] text-white font-rajdhani font-bold leading-normal"
