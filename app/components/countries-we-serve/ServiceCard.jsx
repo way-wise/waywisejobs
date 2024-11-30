@@ -6,8 +6,8 @@
     export const ServiceCard = ({title, description, image, link}) => {
 
     return (
-        <div className="bg-white">
-        <div className="">
+        <div className="bg-white group">
+        <div className="group-hover:opacity-80 transition-all duration-300">
             <img
             src={image}
             alt="country"
@@ -29,6 +29,7 @@
             >
             Explore
             <svg
+                className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300"
                 width="19"
                 height="19"
                 viewBox="0 0 19 19"
