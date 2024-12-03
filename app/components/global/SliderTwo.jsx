@@ -11,7 +11,21 @@ import Slider3 from "../../../public/image/2nd-slider-3.jpg";
 import Link from "next/link";
 
 export default function SliderTwo() {
-  const sliderData = [Slider1, Slider2, Slider3];
+  const sliderData = [
+    {
+      image: Slider1.src,
+      link: "/united-states",
+    },
+    {
+      image: Slider2.src,
+      link: "/united-arab-emirates",
+    },
+    {
+      image: Slider3.src,
+      link: "/canada",
+    },
+  ];
+
 
   var settings = {
     dots: false,
@@ -56,12 +70,12 @@ export default function SliderTwo() {
       <Slider {...settings}>
         {sliderData.map((item, index) => (
           <Link
-            href="/"
+            href={item.link}
             className="md:h-[520px] h-[400px] px-[30px] flex justify-center items-center focus:outline-none md:mt-[90px] mt-[220px]"
             key={index}
           >
             <img
-              src={item.src}
+              src={item.image}
               alt={`slider-${index}`}
               className="object-cover w-full h-full rounded-lg "
             />
