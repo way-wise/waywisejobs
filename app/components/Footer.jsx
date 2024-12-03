@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import FooterLogo from '../../public/image/way_wise_trading_logo.webp'
+import FooterLogo from '@/image/way_wise_trading_logo.webp'
 import Image from 'next/image';
-import Logo from '../../public/image/Logo-2.svg'
+import Logo from '@/image/Logo-2.svg'
 
 const Footer = () => {
   return (

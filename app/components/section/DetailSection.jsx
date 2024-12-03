@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import HomeOne from '../../../public/image/HomeDetails.jpg';
+import HomeOne from '@/image/HomeDetails.jpg';
 
 const DetailSection = () => {
   const listData = [
