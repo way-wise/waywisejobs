@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import {usePathname } from 'next/navigation';
-import Logo from '../../public/image/logo-1.svg'
+import Logo from '@/image/logo-1.svg'
 import Image from 'next/image';
 const Header = () => {
   const pathname  = usePathname()

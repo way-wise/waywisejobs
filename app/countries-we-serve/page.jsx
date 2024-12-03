@@ -1,13 +1,13 @@
 import React from 'react'
 import { ServiceCard } from '@/app/components/countries-we-serve/ServiceCard'
 import CtaTwo from '../components/global/CtaTwo'
-import UsaImg from '../../public/image/UsaImg.png'
+import UsaImg from '@/image/UsaImg.png'
 import HeroImg from '../components/global/HeroImg'
-import KoreaImg from '../../public/image/KoreaImg.png'
-import CanadaImg from '../../public/image/CaImg.png'
-import UaeImg from '../../public/image/UaeImg.png'
-import SaudiImg from '../../public/image/SaudiImg.png'
-import heroImage from '../../public/image/HeroImg-1.png'
+import KoreaImg from '@/image/KoreaImg.png'
+import CanadaImg from '@/image/CaImg.png'
+import UaeImg from '@/image/UaeImg.png'
+import SaudiImg from '@/image/SaudiImg.png'
+import heroImage from '@/image/HeroImg-1.png'
 
 
 

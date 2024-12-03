@@ -5,10 +5,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider1 from "../../../public/image/Hero1 1.png";
-import Slider2 from "../../../public/image/Slider-2.jpg";
-import Slider3 from "../../../public/image/Slider-3.jpg";
-import Slider5 from "../../../public/image/Slider-5.jpg";
+import Slider1 from "@/image/Hero1 1.png";
+import Slider2 from "@/image/Slider-2.jpg";
+import Slider3 from "@/image/Slider-3.jpg";
+import Slider5 from "@/image/Slider-5.jpg";
 
 export default function MainSlider() {
   const sliderData = [Slider1, Slider2, Slider3, Slider5];

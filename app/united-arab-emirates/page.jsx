@@ -1,14 +1,14 @@
 import React from 'react'
 import DetailCardServiceOne from '../components/global/DetailCardServiceOne'
 import DetailCardServiceTwo from '../components/global/DetailCradServiceTwo'
-import HeroUae from '../../public/image/HeroUae.png'
+import HeroUae from '@/image/HeroUae.png'
 import HeroImg from '../components/global/HeroImg'
 import Cta from '../components/global/Cta'
 import CtaTwo from '../components/global/CtaTwo'
-import ServiceImgOne from '../../public/image/country-page/Service-1.png'
-import ServiceImgTwo from '../../public/image/country-page/Service-2.png'
-import ServiceImgThree from '../../public/image/country-page/Service-3.png'
-import ServiceImgFour from '../../public/image/country-page/Service-4.png'  
+import ServiceImgOne from '@/image/country-page/Service-1.png'
+import ServiceImgTwo from '@/image/country-page/Service-2.png'
+import ServiceImgThree from '@/image/country-page/Service-3.png'
+import ServiceImgFour from '@/image/country-page/Service-4.png'  
 
 
 const UnitedArabEmirates = () => {

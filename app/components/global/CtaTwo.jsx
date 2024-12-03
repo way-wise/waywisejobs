@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import React from 'react'
-import CtaIcn from '../../../public/image/icon.svg'
-import CtaImg from '../../../public/image/CtaOne.jpg'
+import CtaIcn from '@/image/icon.svg'
+import CtaImg from '@/image/CtaOne.jpg'
 
 const CtaTwo = () => {
   return (
