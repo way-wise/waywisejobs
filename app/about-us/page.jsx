@@ -5,9 +5,11 @@ import Card from '../components/global/Card';
 import Cta from '../components/global/Cta';
 import CtaTwo from '../components/global/CtaTwo';
 import List from '../components/global/List';
+import FirstImg from '../../public/image/about-1.jpg'
 
 
 const About = () => {
+  
   const listData = [
     {
       title: "Quality Assurance",
@@ -77,7 +79,7 @@ const About = () => {
           </div>
         </div>
         <img
-          src="https://img.freepik.com/premium-photo/portrait-indian-business-people-working-office-corporate-culture-law-firm-teamwork-concept_466689-15333.jpg?uid=P157340327&ga=GA1.1.989845833.1731762232&semt=ais_hybrid"
+          src={FirstImg.src}
           alt=""
           className="md:w-[80%] w-full md:h-[700px] h-[300px] object-cover md:rounded-[30px] rounded-[10px] mt-[30px]"
         />

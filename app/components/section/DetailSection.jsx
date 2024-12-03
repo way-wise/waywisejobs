@@ -21,7 +21,7 @@ const DetailSection = () => {
               Get informed -
             </h4>
             <h1 className="md:text-[54px] text-[20px] font-bold font-rajdhani uppercase leading-[64px] text-black">
-              Let’s Build Something Creative together
+              Your Career, Beyond Borders!
             </h1>
           </div>
 
@@ -43,11 +43,9 @@ const DetailSection = () => {
           </ul>
 
           <p className="md:text-[18px] text-[14px] font-rubik font-normal leading-[30px] text-gray-500 mt-8">
-            Way-Wise Trading Limited excels as a top garment manufacturer and
-            exporter. We offer high-quality, innovative fabrics and garments for
-            diverse climates and markets. Our expertise ensures each product
-            meets top standards of texture, feel, and durability. Discover how
-            we can bring your fashion visions to life.
+            Way-Wise Jobs connects you to global opportunities. Whether
+            you dream of working in the Middle East, Africa, or beyond, we are
+            here to make it happen.
           </p>
         </div>
         <div className="hidden md:block md:w-[50%]">
