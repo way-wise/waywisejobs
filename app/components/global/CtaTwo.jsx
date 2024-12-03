@@ -45,7 +45,7 @@ const CtaTwo = () => {
             className="md:text-[22px] text-[18px] text-black font-rajdhani font-semibold flex items-center gap-4 mt-[8px]"
           >
             <i className="bi bi-envelope-at-fill md:text-[20px] text-[16px] text-[#2A37EA]"></i>
-            naheantarik@waywisetech.com
+            info@waywisejobs.com
           </a>
         </div>
         <div className="mt-[35px] mb-[16px]">

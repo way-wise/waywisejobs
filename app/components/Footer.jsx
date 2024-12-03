@@ -113,7 +113,7 @@ const Footer = () => {
             <div className="flex items-center gap-6 justify-center">
               <div className="flex gap-4 text-sm text-gray-400 text-center">
                 <p>Developed by</p>
-                <a href="#" className="hover:text-[#FF902E] text-white font-bold transition-colors">
+                <a href="#" className="hover:text-[#FF902E] text-white font-bold transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-2 after:bg-white">
                   Way-Wise Tech
                 </a>
               </div>
