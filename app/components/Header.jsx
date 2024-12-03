@@ -10,7 +10,7 @@ const Header = () => {
   console.log(pathname);
   
   return (
-    <header className="bg-white flex flex-wrap md:flex-nowrap justify-between items-center">
+    <header className="bg-white/80 flex flex-wrap md:flex-nowrap justify-between items-center  top-0 left-0 w-full z-[999] sticky backdrop-blur">
       <div className="flex items-center px-4 md:pl-[50px] md:pr-[80px] py-[10px] md:py-[23px]">
         <span className="text-[28px] md:text-[36px] font-bold text-black flex items-center h-auto md:h-[65px]">
           WAY-WISE<span className="text-[#FF902E]"> JOBS</span>
