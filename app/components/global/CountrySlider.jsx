@@ -5,9 +5,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider1 from "../../../public/image/2nd-slider-1.jpg";
-import Slider2 from "../../../public/image/2nd-slider-2.jpg";
-import Slider3 from "../../../public/image/2nd-slider-3.jpg";
+import Slider1 from "@/image/2nd-slider-1.jpg";
+import Slider2 from "@/image/2nd-slider-2.jpg";
+import Slider3 from "@/image/2nd-slider-3.jpg";
 import Link from "next/link";
 
 export default function CountrySlider() {

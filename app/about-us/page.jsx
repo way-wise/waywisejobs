@@ -5,7 +5,7 @@ import Card from '../components/global/Card';
 import Cta from '../components/global/Cta';
 import CtaTwo from '../components/global/CtaTwo';
 import List from '../components/global/List';
-import FirstImg from '../../public/image/about-1.jpg'
+import FirstImg from '@/image/about-1.jpg'
 
 
 const About = () => {
