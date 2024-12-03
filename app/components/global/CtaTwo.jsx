@@ -2,17 +2,19 @@
 import Image from 'next/image';
 import React from 'react'
 import CtaIcn from '../../../public/image/icon.svg'
+import CtaImg from '../../../public/image/CtaOne.jpg'
 
 const CtaTwo = () => {
   return (
     <div className="relative">
       <div className="relative md:w-[80%] md:h-[500px] w-full h-[400px] ">
         <Image
-          src="/image/CtaOne.jpg"
+          src={CtaImg.src}
           alt="cta-two"
           fill
           className="object-cover bg-left-bottom"
         />
+        
       </div>
       <div className=" bg-white pl-[30px] pb-[30px] pr-[30px] pt-[20px] md:w-[40%] w-full absolute -bottom-[150px] md:-bottom-[90px] left-0  border-b md:border-b-[8px] border-solid border-gray-200">
         <h2 className="md:text-[40px] text-[24px] text-black font-rajdhani font-bold uppercase mt-[15px]">
@@ -43,7 +45,7 @@ const CtaTwo = () => {
             className="md:text-[22px] text-[18px] text-black font-rajdhani font-semibold flex items-center gap-4 mt-[8px]"
           >
             <i className="bi bi-envelope-at-fill md:text-[20px] text-[16px] text-[#2A37EA]"></i>
-            naheantarik@waywisetech.com
+            info@waywisejobs.com
           </a>
         </div>
         <div className="mt-[35px] mb-[16px]">

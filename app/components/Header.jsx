@@ -3,18 +3,17 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import {usePathname } from 'next/navigation';
-
+import Logo from '../../public/image/logo-1.svg'
+import Image from 'next/image';
 const Header = () => {
   const pathname  = usePathname()
   const [menuOpen, setMenuOpen] = useState(false);
   console.log(pathname);
   
   return (
-    <header className="bg-white flex flex-wrap md:flex-nowrap justify-between items-center">
-      <div className="flex items-center px-4 md:pl-[50px] md:pr-[80px] py-[10px] md:py-[23px]">
-        <span className="text-[28px] md:text-[36px] font-bold text-black flex items-center h-auto md:h-[65px]">
-          WAY-WISE<span className="text-[#FF902E]"> JOBS</span>
-        </span>
+    <header className="bg-white/80 flex flex-wrap md:flex-nowrap justify-between items-center  top-0 left-0 w-full z-[999] sticky backdrop-blur">
+      <div className="flex items-center px-4 md:pl-[50px] md:pr-[80px] py-[10px] md:py-[20px]">
+        <Image src={Logo} alt="logo" width={300} height={90} />
       </div>
 
       <nav className="hidden md:flex flex-wrap space-x-6 uppercase text-lg md:text-xl font-rajdhani font-bold">
@@ -55,15 +54,15 @@ const Header = () => {
       <div className="hidden md:flex flex-col md:flex-row items-center mt-4 md:mt-0">
         <div className="pr-4 md:pr-[50px]">
           <a
-            href="#quote"
+            href="/contact-us"
             className="font-rajdhani bg-transparent text-[14px] md:text-[18px] border-2 py-[8px] px-[16px] md:py-[14px] md:px-[30px] rounded-[5px] border-solid border-[#2A37EA] text-[#2A37EA] hover:bg-[#2A37EA] hover:text-white font-bold"
           >
             GET A FREE QUOTE +
           </a>
         </div>
-        <div className="bg-[#FF902E] flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 md:pr-[50px] md:pl-[34px] py-[12px] md:py-[24px]">
+        <div className="bg-[#FF902E] flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 md:pr-[50px] md:pl-[34px] py-[12px] md:py-[25px]">
           <i className="bi bi-telephone-fill text-[20px] md:text-[26px]"></i>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <a
               href="tel:+18185160255"
               className="text-[16px] md:text-[20px] text-white font-rajdhani font-bold leading-normal"

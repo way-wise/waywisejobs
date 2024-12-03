@@ -8,14 +8,14 @@ const ContactUs = () => {
     {
       title: "United States",
       phone: "+1234567890",
-      email: "info@example.com",
+      email: "info@waywisejobs.com",
       address: "Saddleback Ridge Rd, Santa Clarita, California,USA",
       number: 1,
     },
     {
       title: "Bangladesh",
       phone: "+1234567890",
-      email: "info@example.com",
+      email: "info@waywisejobs.com",
       address: "House-148, Road-22, Mohakhali DOHS, Dhaka-1206",
       number: 2,
     },
