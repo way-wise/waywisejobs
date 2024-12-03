@@ -107,7 +107,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-10">
           <div className="container md:py-6 py-[20px] md:flex md:justify-between justify-center items-center text-center group">
             <p className="text-gray-400 text-sm">
-              © 2024 Copyright{" "}
+              © {new Date().getFullYear()} Copyright{" "}
               <span className="group-hover:text-[#FF902E] font-semibold">
                 Way-Wise Jobs.
               </span>{" "}
@@ -118,7 +118,8 @@ const Footer = () => {
               <div className="flex gap-4 text-sm text-gray-400 text-center">
                 <p>Developed by</p>
                 <a
-                  href="#"
+                  href="https://waywisetech.com"
+                  target="_blank"
                   className="hover:text-[#FF902E] text-white font-bold transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#FF902E] after:transition-all after:duration-300 hover:after:w-full"
                 >
                   Way-Wise Tech
