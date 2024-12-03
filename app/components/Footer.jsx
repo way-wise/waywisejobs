@@ -1,17 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import FooterLogo from '../../public/image/way_wise_trading_logo.webp'
+import Image from 'next/image';
+import Logo from '../../public/image/Logo-2.svg'
 
 const Footer = () => {
   return (
     <footer className="bg-[#2A37EA] mt-[100px]">
       <div className="container mx-auto">
         <div className="pt-[40px] pb-[15px] md:flex justify-between">
-          <div>
-            {/* <img src={FooterLogo.src} alt="logo" /> */}
-            <span className="text-[24px] font-bold text-white">
-              WAY-WISE <span className=" text-[#FF902E]">JOBS</span>
-            </span>
+          <div className='flex flex-col gap-4 items-center pt-[30px]'>
+            <Image src={Logo} alt="logo" width={220} height={120}/>
             <p className="text-[16px] text-white">
               Don’t hesitate, contact us for better help and services.
             </p>
