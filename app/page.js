@@ -7,6 +7,7 @@ import DetailSlider from "./components/home/DetailSlider";
 import MainSlider from "./components/global/MainSlider";
 import CountrySlider from "./components/global/CountrySlider";
 import CountriesSection from "./components/home/CountriesSection";
+
 export default function Home() {
   return (
     <>

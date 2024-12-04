@@ -5,6 +5,7 @@ import Link from 'next/link';
 import {usePathname } from 'next/navigation';
 import Logo from '@/image/logo-1.svg'
 import Image from 'next/image';
+
 const Header = () => {
   const pathname  = usePathname()
   const [menuOpen, setMenuOpen] = useState(false);
@@ -54,10 +55,11 @@ const Header = () => {
       <div className="hidden md:flex flex-col md:flex-row items-center mt-4 md:mt-0">
         <div className="pr-4 md:pr-[50px]">
           <a
-            href="/contact-us"
+            href="#"
+            onClick={() => window.open(sample, "_blank")}
             className="font-rajdhani bg-transparent text-[14px] md:text-[18px] border-2 py-[8px] px-[16px] md:py-[14px] md:px-[30px] rounded-[5px] border-solid border-[#2A37EA] text-[#2A37EA] hover:bg-[#2A37EA] hover:text-white font-bold"
           >
-            GET A FREE QUOTE +
+            Open PDF
           </a>
         </div>
         <div className="bg-[#FF902E] flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 md:pr-[50px] md:pl-[34px] py-[12px] md:py-[25px]">
@@ -79,57 +81,56 @@ const Header = () => {
         </div>
       </div>
 
-   
+
       <div
         className="md:hidden text-black text-[50px] pr-[20px] cursor-pointer"
         onClick={() => setMenuOpen(!menuOpen)}
       >
-        <i className={`bi ${menuOpen ? 'bi-x' : 'bi-list'}`}></i>
+        <i className={`bi ${menuOpen ? "bi-x" : "bi-list"}`}></i>
       </div>
 
-      
-      {menuOpen && (
-        <div className="absolute top-[60px] left-0 w-full bg-white shadow-lg z-50 flex flex-col items-center space-y-4 py-6 md:hidden">
-          <Link
-            href="/"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === '/' ? 'text-[#FF902E]' : 'text-black'
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
-            href="/about-us"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === '/about-us' ? 'text-[#FF902E]' : 'text-black'
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            About Us
-          </Link>
-          <Link
-            href="/countries-we-serve"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === '/countries-we-serve'
-                ? 'text-[#FF902E]'
-                : 'text-black'
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            Countries We Serve
-          </Link>
-          <Link
-            href="/contact-us"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === '/contact-us' ? 'text-[#FF902E]' : 'text-black'
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            Contact Us
-          </Link>
-        </div>
-      )}
+      <div
+        className={`absolute top-[80px] left-0 w-full bg-white shadow-lg z-50 flex flex-col items-center space-y-4 py-6 md:hidden transition-transform duration-300 ${
+          menuOpen ? "translate-x-0 visible" : "translate-x-full invisible"
+        }`}
+      >
+        <Link
+          href="/"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/" ? "text-[#FF902E]" : "text-black"
+          }`}
+          onClick={() => setMenuOpen(false)}
+        >
+          Home`
+        </Link>
+        <Link
+          href="/about-us"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/about-us" ? "text-[#FF902E]" : "text-black"
+          }`}
+          onClick={() => setMenuOpen(false)}
+        >
+          About Us
+        </Link>
+        <Link
+          href="/countries-we-serve"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/countries-we-serve" ? "text-[#FF902E]" : "text-black"
+          }`}
+          onClick={() => setMenuOpen(false)}
+        >
+          Countries We Serve
+        </Link>
+        <Link
+          href="/contact-us"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/contact-us" ? "text-[#FF902E]" : "text-black"
+          }`}
+          onClick={() => setMenuOpen(false)}
+        >
+          Contact Us
+        </Link>
+      </div>
     </header>
   );
 };
