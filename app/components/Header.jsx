@@ -16,7 +16,7 @@ const Header = () => {
         <Image src={Logo} alt="logo" width={300} height={90} />
       </div>
 
-      <nav className="hidden md:flex flex-wrap space-x-6 uppercase text-lg md:text-xl font-rajdhani font-bold">
+      <nav className="hidden md:flex flex-wrap space-x-6 uppercase text-lg md:text-xl lg:text-2xl font-rajdhani font-bold">
         <Link
           href="/"
           className={`hover:text-[#FF902E] ${

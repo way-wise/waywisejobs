@@ -14,14 +14,13 @@ const CtaTwo = () => {
           fill
           className="object-cover bg-left-bottom"
         />
-        
       </div>
       <div className=" bg-white pl-[30px] pb-[30px] pr-[30px] pt-[20px] md:w-[40%] w-full absolute -bottom-[150px] md:-bottom-[90px] left-0  border-b md:border-b-[8px] border-solid border-gray-200">
         <h2 className="md:text-[40px] text-[24px] text-black font-rajdhani font-bold uppercase mt-[15px]">
           GET YOUR <span className="text-[#2A37EA]">FREE</span> CONSULTING
         </h2>
         <p className="text-[16px] text-gray-600 font-rubik">
-          {`Don’t hesitate, contact us for better help and services.`}
+          {`Don't Wait—Transform Your Career Now!`}
         </p>
         <div className="items-center gap-2  mt-[30px]">
           <div className="flex items-center gap-4">
@@ -32,7 +31,9 @@ const CtaTwo = () => {
             >
               +91 9876543210
             </a>
-            <span className="md:text-[16px] text-[12px] text-black font-rubik">Or</span>
+            <span className="md:text-[16px] text-[12px] text-black font-rubik">
+              Or
+            </span>
             <a
               href="tel:+919876543210"
               className="md:text-[24px] text-[18px] text-black font-rajdhani font-semibold"
@@ -56,7 +57,11 @@ const CtaTwo = () => {
           </div>
         </div>
         <div className="hidden md:block md:absolute md:-top-10 md:-right-12">
-          <img src={CtaIcn.src} alt="Icon" className="md:w-[105px] md:h-[105px] w-[80px] h-[80px]" />
+          <img
+            src={CtaIcn.src}
+            alt="Icon"
+            className="md:w-[105px] md:h-[105px] w-[80px] h-[80px]"
+          />
         </div>
       </div>
     </div>

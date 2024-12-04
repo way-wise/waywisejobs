@@ -11,7 +11,30 @@ import Slider3 from "@/image/Slider-3.jpg";
 import Slider5 from "@/image/Slider-5.jpg";
 
 export default function MainSlider() {
-  const sliderData = [Slider1, Slider2, Slider3, Slider5];
+  const sliderData = [
+    {
+      image: Slider1.src,
+      title: "Empowering Global Careers!",
+      description: "Start your international journey with Way-Wise Jobs today.",
+    },
+    {
+      image: Slider2.src,
+      title: "Your Trusted Partner",
+      description:
+        "We make your path to global opportunities simple and stress-free.",
+    },
+    {
+      image: Slider3.src,
+      title: "Bridge to Opportunities",
+      description: "Connect with high-demand jobs worldwide effortlessly.",
+    },
+    {
+      image: Slider5.src,
+      title: "Your Career Awaits!",
+      description: "Step into a brighter future with Way-Wise Jobs.",
+    },
+  ];
+
 
   
   const CustomNextArrow = (props) => {
@@ -49,8 +72,8 @@ export default function MainSlider() {
     autoplaySpeed: 5000,
     cssEase: "linear",
     arrows: true,
-    nextArrow: <CustomNextArrow />, // Assign Custom Next Arrow
-    prevArrow: <CustomPrevArrow />, // Assign Custom Prev Arrow
+    nextArrow: <CustomNextArrow />, 
+    prevArrow: <CustomPrevArrow />, 
   };
 
   return (
@@ -61,17 +84,16 @@ export default function MainSlider() {
           key={index}
         >
           <img
-            src={item.src}
+            src={item.image}
             alt=""
             className="object-cover w-full h-full border-none"
           />
           <div className="absolute top-[130px] md:top-1/2 md:left-[200px] md:-translate-y-1/2 md:max-w-4xl text-center md:text-left">
-            <div className="text-[10px] md:text-2xl font-bold text-white  bg-[#FF902E] inline-block px-4 py-2 rounded-md">
-              <p className="">Lorem ipsum dolor sit.</p>
+            <div className="text-[10px] md:text-[20px] font-bold text-white  bg-[#FF902E] inline-block px-4 py-2 ">
+              <p className="">{item.title}</p>
             </div>
             <h2 className="text-[20px] md:text-[40px] font-bold text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi, doloribus!
+              {item.description}
             </h2>
           </div>
         </div>

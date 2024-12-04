@@ -6,22 +6,19 @@ import Cta from '../components/global/Cta';
 import CtaTwo from '../components/global/CtaTwo';
 import List from '../components/global/List';
 import FirstImg from '@/image/about-1.jpg'
-
+import Link from 'next/link';
 
 const About = () => {
   
   const listData = [
     {
-      title: "Quality Assurance",
+      title: "International Job Placement",
     },
     {
-      title: "Competitive Pricing",
+      title: "Complete Recruitment Services",
     },
     {
-      title: "Customer Support",
-    },
-    {
-      title: "Sustainability",
+      title: "Skill Development",
     },
   ];
 
@@ -30,18 +27,18 @@ const About = () => {
       icon: "bi bi-person-arms-up",
       title: "Our Vision",
       description:
-        "Become a leading trading company, known for quality, innovation, and customer-centric solutions, building lasting partnerships.",
+        "To be a leading global recruitment partner, transforming careers and creating opportunities without boundaries.",
     },
     {
       icon: "bi bi-people-fill",
       title: "Our Mission",
       description:
-        "Deliver exceptional value to our customers by providing high-quality products and services, fostering innovation, and maintaining integrity in all our business practices.",
+        "To empower individuals by connecting them with rewarding jobs and supporting businesses in finding the best talent to achieve their goals.",
     },
   ];
   return (
     <main>
-      <BreadcrumbSection  />
+      <BreadcrumbSection />
 
       <section className=" container mx-auto px-4 md:py-[64px] py-[30px] md:flex gap-[30px]">
         <div>
@@ -53,23 +50,27 @@ const About = () => {
               Let’s Build Something Creative together
             </h2>
           </div>
-          <div className="relative flex items-center gap-2 mb-[15px]">
-            <div className="flex items-center gap-4 p-[40px] border border-solid border-[#2A37EA] rounded-[30px]">
+          <div className="relative flex items-center gap-2 mb-[15px] md:mb-[30px]">
+            <Link
+              href="/contact-us"
+              className="flex items-center gap-4 p-[40px] border border-solid border-[#FF902E] rounded-[30px] hover:bg-[#FF902E] hover:text-white transition-all duration-300 hover:shadow-lg group"
+            >
               <i
-                className="bi bi-truck"
-                style={{ fontSize: "45px", color: "#FF902E" }}
+                className="bi bi-airplane text-[#FF902E] group-hover:text-white transition-all duration-300"
+                style={{ fontSize: "45px" }}
               ></i>
-              <p className="font-rajdhani font-bold text-[21px] leading-[30px] text-black">
-                Your Trusted Partner in Garments Export
+              <p className="font-rajdhani font-bold text-[21px] leading-[30px] text-black group-hover:text-white">
+                Your Dream Job is Just a Click Away
               </p>
-            </div>
+            </Link>
           </div>
           <div>
-            <p className="text-[16px] leading-[26px] text-[#707070] md:mb-[15px] mb-[20px]">
-              Way Wise Trading Limited has quickly established itself as a
-              reliable partner for wholesalers and retailers. Our commitment to
-              quality, timely delivery, and customer satisfaction has earned us
-              a reputation for excellence in the industry.
+            <p className="md:text-[20px] text-[14px] leading-[26px] text-black md:mb-[30px] mb-[20px]">
+              Way-Wise Jobs, we specialize in connecting skilled professionals
+              with life-changing opportunities abroad. As part of Way-Wise
+              Trading, our mission is to bridge the gap between global talent
+              demand and aspiring job seekers, ensuring a seamless path to
+              international success.
             </p>
             <ul className="flex flex-col gap-[15px]">
               {listData.map((item, index) => (
@@ -101,7 +102,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <div className='mb-[200px]'>
+      <div className="mb-[200px]">
         <Cta />
         <CtaTwo />
       </div>

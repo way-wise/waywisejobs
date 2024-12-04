@@ -23,42 +23,42 @@ const CountriesWeServe = () => {
     {
       title: "United States",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "Way Wise Jobs connects U.S. companies with skilled talent in technology, healthcare, construction, and finance, offering tailored staffing solutions.",
       image: UsaImg.src,
       link: "/united-states",
     },
     {
       title: "South Korea",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "We supply South Korea with skilled talent in technology, manufacturing, finance, and education to help businesses stay competitive.",
       image: KoreaImg.src,
       link: "/south-korea",
     },
     {
       title: "United Arab Emirates",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "Way Wise Jobs connects UAE businesses with skilled professionals in construction, hospitality, finance, and engineering, sourcing global talent to support trade and development.",
       image: UaeImg.src,
       link: "/united-arab-emirates",
     },
     {
       title: "Saudi Arabia",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "We offer staffing solutions for oil & gas, construction, healthcare, and engineering, aligning with Vision 2030 to support growth.",
       image: SaudiImg.src,
       link: "/saudi-arabia",
     },
     {
       title: "Canada",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "We provide qualified manpower for IT, healthcare, engineering, and skilled trades, ensuring the right fit for Canadian employers.",
       image: CanadaImg.src,
       link: "/canada",
     },
   ];
   return (
     <main className="bg-[#F5F5F5]">
-      <section className="md:mb-[100px] mb-[50px] ">
+      <section className="md:mb-[100px] mb-[50px] h-full">
         <HeroImg {...HeroDataServe} />
       </section>
       <section className="container mx-auto">

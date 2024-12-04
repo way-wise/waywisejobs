@@ -9,31 +9,31 @@ const CountriesSection = () => {
       country: ["Canada", "United States"],
       image: CountryCard1.src,
       tag: "North America",
-      link: "/",
+      link: "/countries-we-serve",
     },
     {
-      country: ["Japan"],
+      country: ["South Korea"],
       image: CountryCard1.src,
-      tag: "Japan",
-      link: "/",
+      tag: "Asia",
+      link: "/countries-we-serve",
     },
     {
-      country: ["United Kingdom"],
+      country: ["Dubai", "Saudi Arabia"],
+      image: CountryCard1.src,
+      tag: "Middle East",
+      link: "/countries-we-serve",
+    },
+    {
+      country: ["Europe"],
       image: CountryCard1.src,
       tag: "Europe",
-      link: "/",
-    },
-    {
-      country: ["Australia"],
-      image: CountryCard1.src,
-      tag: "Australia",
-      link: "/",
+      link: "/countries-we-serve",
     },
   ];
 
   return (
     <section className='md:my-[100px] my-[10px] mx-[40px]'>
-      <h2 className="text-[20px] md:text-[48px] font-bold text-black  uppercase font-rajdhani leading-[20px] md:leading-[55px] md:mb-[45px] mb-[20px] mt-[20px] text-center">
+      <h2 className="text-[20px] md:text-[48px] font-bold text-black  uppercase font-rajdhani leading-[20px] md:leading-[55px] md:mb-[45px] mb-[30px] md:mt-[20px] mt-[30px] text-center">
         Countries we serve
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-[30px]">

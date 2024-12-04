@@ -24,7 +24,7 @@ const CountriesCard = ({country, image, tag, link}) => {
         </div>
       </div>
       <div className="flex justify-between items-center px-[9px]">
-        <div className="flex flex-wrap gap-[10px]">
+        <div className="flex flex-wrap gap-[10px] mt-[15px]">
           {country.map((country, index) => (
             <p
               key={index}

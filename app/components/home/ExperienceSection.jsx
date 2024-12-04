@@ -16,8 +16,8 @@ const ExperienceSection = () => {
           <div className="w-full">
             <div className="bg-[#2A37EA] md:h-[865px] h-[650px] md:pt-[65px] pt-[40px] md:pl-[45px] pl-[20px] md:pb-[15px] pb-[10px] flex flex-col">
               <h2 className="md:text-[47px] text-[20px] leading-[54px] font-rajdhani font-semibold uppercase text-start text-white ">
-                We Provide Best Garment Products <br /> For Your Ultimate
-                Success!
+                Ready to take the first step? Reach out to us now and unlock
+                your future!
               </h2>
               <p className="w-full mt-auto md:text-[16px] text-[14px] font-medium text-white leading-[28px] text-center font-rajdhani md:pl-[45px] md:pb-[64px] ">
                 We’re ready to discover and unlock your market.{" "}

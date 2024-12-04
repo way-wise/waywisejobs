@@ -3,7 +3,7 @@ import React from 'react';
 import FooterLogo from '@/image/way_wise_trading_logo.webp'
 import Image from 'next/image';
 import Logo from '@/image/Logo-2.svg'
-
+import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-[#2A37EA] mt-[100px]">
@@ -21,41 +21,24 @@ const Footer = () => {
             </h2>
             <ul className="font-bold">
               <li className=" text-[16px] leading-[26px] pb-[12px]">
-                <a href="#" className="hover:text-white/90 transition-colors">
+                <Link href="/" className="hover:text-white/90 transition-colors">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#about-us"
-                  className="hover:text-white/90 transition-colors"
-                >
+                <Link href="/about-us" className="hover:text-white/90 transition-colors">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#countries-we-export"
-                  className="hover:text-white/90 transition-colors"
-                >
-                  Countries We Export
-                </a>
+                <Link href="/countries-we-serve" className="hover:text-white/90 transition-colors">
+                  Countries We Serve
+                </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#factories-we-work"
-                  className="hover:text-white/90 transition-colors"
-                >
-                  Factories We Work
-                </a>
-              </li>
-              <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#contact-us"
-                  className="hover:text-white/90 transition-colors"
-                >
+                <Link href="/contact-us" className="hover:text-white/90 transition-colors">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -105,10 +88,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-10">
-          <div className="container md:py-6 py-[20px] md:flex md:justify-between justify-center items-center text-center group">
+          <div className="container md:py-6 py-[20px] md:flex md:justify-between justify-center items-center text-center">
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Copyright{" "}
-              <span className="group-hover:text-[#FF902E] font-semibold">
+              <span className="hover:text-[#FF902E] font-semibold">
                 Way-Wise Jobs.
               </span>{" "}
               All rights reserved.

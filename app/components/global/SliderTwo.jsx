@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider1 from "@/image/2nd-slider-1.jpg";
 import Slider2 from "@/image/2nd-slider-2.jpg";
 import Slider3 from "@/image/2nd-slider-3.jpg";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function SliderTwo() {
   const sliderData = [
@@ -69,7 +69,7 @@ export default function SliderTwo() {
     <div className="relative z-50 px-4 lg:px-8">
       <Slider {...settings}>
         {sliderData.map((item, index) => (
-          <Link
+          <div
             href={item.link}
             className="md:h-[520px] h-[400px] px-[30px] flex justify-center items-center focus:outline-none md:mt-[90px] mt-[220px]"
             key={index}
@@ -79,7 +79,7 @@ export default function SliderTwo() {
               alt={`slider-${index}`}
               className="object-cover w-full h-full rounded-lg "
             />
-          </Link>
+          </div>
         ))}
       </Slider>
     </div>
