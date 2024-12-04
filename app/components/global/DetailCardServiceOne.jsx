@@ -21,9 +21,9 @@ const DetailCardServiceOne = ({title, description, image}) => {
     <div className="container md:mb-[172px] mb-[50px]">
       <div className="md:w-full flex flex-col md:flex-row mb-[50px]">
         <div className="w-full md:w-1/2">
-          <h2>
+        
             <HighlightTitle title={title} />
-          </h2>
+         
           <p className="text-[16px] md:text-[20px] font-rubik text-black leading-[24px] md:leading-[28px] pe-8 py-[20px]">
             {description}
           </p>

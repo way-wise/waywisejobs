@@ -89,10 +89,10 @@ export default function MainSlider() {
             className="object-cover w-full h-full border-none"
           />
           <div className="absolute top-[130px] md:top-1/2 md:left-[200px] md:-translate-y-1/2 md:max-w-4xl text-center md:text-left">
-            <div className="text-[10px] md:text-[20px] font-bold text-white  bg-[#FF902E] inline-block px-4 py-2 ">
-              <p className="">{item.title}</p>
+            <div className="text-[10px] md:text-[20px] font-bold text-white  bg-[#FF902E] uppercase inline-block px-4 py-2 ">
+              <p>{item.title}</p>
             </div>
-            <h2 className="text-[20px] md:text-[40px] font-bold text-white">
+            <h2 className="text-[20px] md:text-[40px] font-bold text-white uppercase">
               {item.description}
             </h2>
           </div>

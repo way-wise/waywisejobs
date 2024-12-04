@@ -18,13 +18,13 @@ const CountriesSection = () => {
       link: "/countries-we-serve",
     },
     {
-      country: ["Dubai", "Saudi Arabia"],
+      country: ["UAE", "Saudi Arabia"],
       image: CountryCard1.src,
       tag: "Middle East",
       link: "/countries-we-serve",
     },
     {
-      country: ["Europe"],
+      country: ["Italy"],
       image: CountryCard1.src,
       tag: "Europe",
       link: "/countries-we-serve",
