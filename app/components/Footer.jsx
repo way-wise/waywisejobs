@@ -21,22 +21,34 @@ const Footer = () => {
             </h2>
             <ul className="font-bold">
               <li className=" text-[16px] leading-[26px] pb-[12px]">
-                <Link href="/" className="hover:text-white/90 transition-colors">
+                <Link
+                  href="/"
+                  className="hover:text-white/90 transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <Link href="/about-us" className="hover:text-white/90 transition-colors">
+                <Link
+                  href="/about-us"
+                  className="hover:text-white/90 transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <Link href="/countries-we-serve" className="hover:text-white/90 transition-colors">
+                <Link
+                  href="/countries-we-serve"
+                  className="hover:text-white/90 transition-colors"
+                >
                   Countries We Serve
                 </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <Link href="/contact-us" className="hover:text-white/90 transition-colors">
+                <Link
+                  href="/contact-us"
+                  className="hover:text-white/90 transition-colors"
+                >
                   Contact Us
                 </Link>
               </li>
@@ -50,16 +62,16 @@ const Footer = () => {
                 </h2>
                 <div className="flex flex-col gap-2">
                   <a
-                    href="tel:+1 (818) 516 0255"
+                    href="tel:+1 (310) 756 5533"
                     className="font-bold text-[20px] leading-[28px] text-white"
                   >
-                    +1 (818) 516 0255
+                    +1 (310) 756 5533
                   </a>
                   <a
-                    href="tel:+1 (818) 516 0255"
+                    href="tel:+880 1748 771 945"
                     className="font-bold text-[20px] leading-[28px] text-white"
                   >
-                    +1 (818) 516 0255
+                    +880 1748 771 945
                   </a>
                 </div>
               </div>
@@ -87,11 +99,11 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-10">
+        <div className="border-t border-gray-700 mt-10 group">
           <div className="container md:py-6 py-[20px] md:flex md:justify-between justify-center items-center text-center">
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Copyright{" "}
-              <span className="hover:text-[#FF902E] font-semibold">
+              <span className="group-hover:text-[#FF902E] font-semibold">
                 Way-Wise Jobs.
               </span>{" "}
               All rights reserved.

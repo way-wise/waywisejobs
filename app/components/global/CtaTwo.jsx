@@ -26,19 +26,19 @@ const CtaTwo = () => {
           <div className="flex items-center gap-4">
             <i className="bi bi-telephone-fill md:text-[20px] text-[16px] text-[#2A37EA]"></i>
             <a
-              href="tel:+919876543210"
+              href="tel:+13107565533"
               className="md:text-[22px] text-[18px] text-black font-rajdhani font-semibold"
             >
-              +91 9876543210
+              +1 (310) 756 5533
             </a>
             <span className="md:text-[16px] text-[12px] text-black font-rubik">
               Or
             </span>
             <a
-              href="tel:+919876543210"
+              href="tel:+8801748771945"
               className="md:text-[24px] text-[18px] text-black font-rajdhani font-semibold"
             >
-              +91 9876543210
+              +880 1748 771 945
             </a>
           </div>
           <a

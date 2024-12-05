@@ -7,7 +7,7 @@ const InfoCard = ({item}) => {
       style={{ background: item.background, color: item.color }}
       className={`p-[30px] border-b border-solid border-gray-200`}
     >
-      <div className="flex items-center gap-2 ">
+      <div className="flex items-center gap-2 md:pb-[20px]">
         <i className={`${item.icon} text-[48px]`}></i>
         <div>
           <h2 className="text-[30px] font-bold font-rajdhani uppercase">
