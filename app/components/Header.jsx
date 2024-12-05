@@ -93,6 +93,7 @@ const Header = () => {
             menuOpen ? "translate-x-0 visible" : "translate-x-full invisible"
           }`}
         >
+          
           <Link
             href="/"
             className={`text-lg font-bold hover:text-[#FF902E] ${
@@ -100,7 +101,7 @@ const Header = () => {
             }`}
             onClick={() => setMenuOpen(false)}
           >
-            Home`
+            Home
           </Link>
           <Link
             href="/about-us"
@@ -130,6 +131,7 @@ const Header = () => {
             Contact Us
           </Link>
         </div>
+        
     </>
   );
 };

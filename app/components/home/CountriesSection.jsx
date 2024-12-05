@@ -24,7 +24,7 @@ const CountriesSection = () => {
       country: ["UAE", "Saudi Arabia"],
       image: MiddleEast.src,
       tag: "Middle East",
-      link: "/countries-we-serve",
+      link: "/countries-we-serve"
     },
     {
       country: ["Italy"],
@@ -41,7 +41,7 @@ const CountriesSection = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-[30px]">
         {countries.map((country, index) => (
-          <CountriesCard key={index} {...country}  />
+          <CountriesCard key={index} {...country} index={index}  />
         ))}
       </div>
     </section>

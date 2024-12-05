@@ -16,7 +16,7 @@ const Flipbook = () => {
         onClick={togglePopup}
         className="bg-transparent border border-[#2A37EA] text-[#2A37EA] px-[30px] py-[15px] rounded-[5px] font-rajdhani text-[16px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300 group"
       >
-        Open Book{" "}
+        Company Profile{" "}
         <span className="text-[20px] group-hover:translate-x-2 inline-block transition-transform duration-300">
           +
         </span>
