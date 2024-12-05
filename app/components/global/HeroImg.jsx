@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
+
 const HeroImg = ({title1, title2, image}) => {
   return (
     <div className="relative">
@@ -19,6 +20,7 @@ const HeroImg = ({title1, title2, image}) => {
           {title2}
         </h2>
       </div>
+
     </div>
   );
 }

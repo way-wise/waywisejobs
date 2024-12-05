@@ -5,6 +5,8 @@ import Link from 'next/link';
 import {usePathname } from 'next/navigation';
 import Logo from '@/image/logo-1.svg'
 import Image from 'next/image';
+import Flipbook from './global/Flipbook';
+
 
 const Header = () => {
   const pathname  = usePathname()
@@ -12,7 +14,7 @@ const Header = () => {
   console.log(pathname);
   
   return (
-    <header className="bg-white/80 flex flex-wrap md:flex-nowrap justify-between items-center  top-0 left-0 w-full z-[999] sticky backdrop-blur">
+    <header className="bg-white/80 flex flex-wrap md:flex-nowrap justify-between items-center top-0 left-0 w-full z-[999] sticky backdrop-blur">
       <div className="flex items-center px-4 md:pl-[50px] md:pr-[80px] py-[10px] md:py-[20px]">
         <Image src={Logo} alt="logo" width={300} height={90} />
       </div>
@@ -54,13 +56,7 @@ const Header = () => {
 
       <div className="hidden md:flex flex-col md:flex-row items-center mt-4 md:mt-0">
         <div className="pr-4 md:pr-[50px]">
-          <a
-            href="#"
-            onClick={() => window.open(sample, "_blank")}
-            className="font-rajdhani bg-transparent text-[14px] md:text-[18px] border-2 py-[8px] px-[16px] md:py-[14px] md:px-[30px] rounded-[5px] border-solid border-[#2A37EA] text-[#2A37EA] hover:bg-[#2A37EA] hover:text-white font-bold"
-          >
-            Open PDF
-          </a>
+          <Flipbook />
         </div>
         <div className="bg-[#FF902E] flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 md:pr-[50px] md:pl-[34px] py-[12px] md:py-[25px]">
           <i className="bi bi-telephone-fill text-[20px] md:text-[26px]"></i>
@@ -81,6 +77,7 @@ const Header = () => {
         </div>
       </div>
 
+      
 
       <div
         className="md:hidden text-black text-[50px] pr-[20px] cursor-pointer"

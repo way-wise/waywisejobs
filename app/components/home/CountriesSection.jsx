@@ -1,31 +1,34 @@
 import React from 'react'
 import CountriesCard from './CountriesCard';
-import CountryCard1 from '@/image/country-card-1.png'
+import NorthAmerica from '@/image/countries/north-america.png'
+import Asia from '@/image/countries/asia.png'
+import Europe from '@/image/countries/europe.png'
+import MiddleEast from '@/image/countries/middle-east.png'
 
 const CountriesSection = () => {
 
   const countries = [
     {
       country: ["Canada", "United States"],
-      image: CountryCard1.src,
+      image: NorthAmerica.src,
       tag: "North America",
       link: "/countries-we-serve",
     },
     {
       country: ["South Korea"],
-      image: CountryCard1.src,
+      image: Asia.src,
       tag: "Asia",
       link: "/countries-we-serve",
     },
     {
       country: ["UAE", "Saudi Arabia"],
-      image: CountryCard1.src,
+      image: MiddleEast.src,
       tag: "Middle East",
       link: "/countries-we-serve",
     },
     {
       country: ["Italy"],
-      image: CountryCard1.src,
+      image: Europe.src,
       tag: "Europe",
       link: "/countries-we-serve",
     },
