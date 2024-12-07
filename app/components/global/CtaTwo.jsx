@@ -7,37 +7,38 @@ import CtaImg from '@/image/CtaOne.jpg'
 const CtaTwo = () => {
   return (
     <div className="relative">
-      <div className="relative md:w-[80%] md:h-[500px] w-full h-[400px] ">
+      <div className="relative lg:w-[80%] md:h-[500px] w-full h-[400px] ">
         <Image
           src={CtaImg.src}
           alt="cta-two"
           fill
           className="object-cover bg-left-bottom"
         />
-        
       </div>
-      <div className=" bg-white pl-[30px] pb-[30px] pr-[30px] pt-[20px] md:w-[40%] w-full absolute -bottom-[150px] md:-bottom-[90px] left-0  border-b md:border-b-[8px] border-solid border-gray-200">
+      <div className=" bg-white pl-[30px] pb-[30px] pr-[30px] pt-[20px] lg:w-[40%] md:w-[90%] w-full absolute -bottom-[150px] md:-bottom-[90px] left-0  border-b md:border-b-[8px] border-solid border-gray-200">
         <h2 className="md:text-[40px] text-[24px] text-black font-rajdhani font-bold uppercase mt-[15px]">
           GET YOUR <span className="text-[#2A37EA]">FREE</span> CONSULTING
         </h2>
         <p className="text-[16px] text-gray-600 font-rubik">
-          {`Don’t hesitate, contact us for better help and services.`}
+          {`Don't Wait—Transform Your Career Now!`}
         </p>
         <div className="items-center gap-2  mt-[30px]">
           <div className="flex items-center gap-4">
             <i className="bi bi-telephone-fill md:text-[20px] text-[16px] text-[#2A37EA]"></i>
             <a
-              href="tel:+919876543210"
+              href="tel:+13107565533"
               className="md:text-[22px] text-[18px] text-black font-rajdhani font-semibold"
             >
-              +91 9876543210
+              +1 (310) 756 5533
             </a>
-            <span className="md:text-[16px] text-[12px] text-black font-rubik">Or</span>
+            <span className="md:text-[16px] text-[12px] text-black font-rubik">
+              Or
+            </span>
             <a
-              href="tel:+919876543210"
+              href="tel:+8801748771945"
               className="md:text-[24px] text-[18px] text-black font-rajdhani font-semibold"
             >
-              +91 9876543210
+              +880 1748 771 945
             </a>
           </div>
           <a
@@ -56,7 +57,11 @@ const CtaTwo = () => {
           </div>
         </div>
         <div className="hidden md:block md:absolute md:-top-10 md:-right-12">
-          <img src={CtaIcn.src} alt="Icon" className="md:w-[105px] md:h-[105px] w-[80px] h-[80px]" />
+          <img
+            src={CtaIcn.src}
+            alt="Icon"
+            className="md:w-[105px] md:h-[105px] w-[80px] h-[80px]"
+          />
         </div>
       </div>
     </div>

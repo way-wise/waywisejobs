@@ -3,7 +3,7 @@ import React from 'react';
 import FooterLogo from '@/image/way_wise_trading_logo.webp'
 import Image from 'next/image';
 import Logo from '@/image/Logo-2.svg'
-
+import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-[#2A37EA] mt-[100px]">
@@ -21,41 +21,36 @@ const Footer = () => {
             </h2>
             <ul className="font-bold">
               <li className=" text-[16px] leading-[26px] pb-[12px]">
-                <a href="#" className="hover:text-white/90 transition-colors">
+                <Link
+                  href="/"
+                  className="hover:text-white/90 transition-colors"
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#about-us"
+                <Link
+                  href="/about-us"
                   className="hover:text-white/90 transition-colors"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#countries-we-export"
+                <Link
+                  href="/countries-we-serve"
                   className="hover:text-white/90 transition-colors"
                 >
-                  Countries We Export
-                </a>
+                  Countries We Serve
+                </Link>
               </li>
               <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#factories-we-work"
-                  className="hover:text-white/90 transition-colors"
-                >
-                  Factories We Work
-                </a>
-              </li>
-              <li className="text-[16px] leading-[26px] pb-[12px]">
-                <a
-                  href="#contact-us"
+                <Link
+                  href="/contact-us"
                   className="hover:text-white/90 transition-colors"
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -67,16 +62,16 @@ const Footer = () => {
                 </h2>
                 <div className="flex flex-col gap-2">
                   <a
-                    href="tel:+1 (818) 516 0255"
+                    href="tel:+1 (310) 756 5533"
                     className="font-bold text-[20px] leading-[28px] text-white"
                   >
-                    +1 (818) 516 0255
+                    +1 (310) 756 5533
                   </a>
                   <a
-                    href="tel:+1 (818) 516 0255"
+                    href="tel:+880 1748 771 945"
                     className="font-bold text-[20px] leading-[28px] text-white"
                   >
-                    +1 (818) 516 0255
+                    +880 1748 771 945
                   </a>
                 </div>
               </div>
@@ -104,10 +99,10 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-10">
-          <div className="container md:py-6 py-[20px] md:flex md:justify-between justify-center items-center text-center group">
+        <div className="border-t border-gray-700 mt-10 group">
+          <div className="container md:py-6 py-[20px] md:flex md:justify-between justify-center items-center text-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Copyright{" "}
+              © {new Date().getFullYear()} Copyright{" "}
               <span className="group-hover:text-[#FF902E] font-semibold">
                 Way-Wise Jobs.
               </span>{" "}
@@ -118,7 +113,8 @@ const Footer = () => {
               <div className="flex gap-4 text-sm text-gray-400 text-center">
                 <p>Developed by</p>
                 <a
-                  href="#"
+                  href="https://waywisetech.com"
+                  target="_blank"
                   className="hover:text-[#FF902E] text-white font-bold transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#FF902E] after:transition-all after:duration-300 hover:after:w-full"
                 >
                   Way-Wise Tech

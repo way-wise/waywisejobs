@@ -7,14 +7,14 @@ const ContactUs = () => {
   const contactCardItems = [
     {
       title: "United States",
-      phone: "+1234567890",
+      phone: "+1 (310) 756 5533",
       email: "info@waywisejobs.com",
       address: "Saddleback Ridge Rd, Santa Clarita, California,USA",
       number: 1,
     },
     {
       title: "Bangladesh",
-      phone: "+1234567890",
+      phone: "+880 1748 771 945",
       email: "info@waywisejobs.com",
       address: "House-148, Road-22, Mohakhali DOHS, Dhaka-1206",
       number: 2,
@@ -26,12 +26,12 @@ const ContactUs = () => {
       <BreadcrumbSection />
       <section>
         <div className="container mx-auto px-4">
-          <div className="md:mt-[80px] mt-[50px]">
-            <h2 className="md:text-[48px] text-[20px] font-bold font-rajdhani uppercase leading-[53px] text-center text-black">
+          <div className="lg:mt-[80px] mt-[50px]">
+            <h2 className="lg:text-[48px] text-[20px] font-bold font-rajdhani uppercase leading-[53px] text-center text-black">
               Explore Our <span className="text-[#2A37EA]">Office</span>{" "}
               Worldwide
             </h2>
-            <div className="grid md:grid-cols-2 grid-cols-1 mt-5">
+            <div className="grid lg:grid-cols-2 grid-cols-1 mt-5">
               {contactCardItems.map((item, index) => (
                 <ContactCard key={index} item={item} />
               ))}

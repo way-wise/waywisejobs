@@ -11,7 +11,30 @@ import Slider3 from "@/image/Slider-3.jpg";
 import Slider5 from "@/image/Slider-5.jpg";
 
 export default function MainSlider() {
-  const sliderData = [Slider1, Slider2, Slider3, Slider5];
+  const sliderData = [
+    {
+      image: Slider1.src,
+      title: "Empowering Global Careers!",
+      description: "Start your international journey with Way-Wise Jobs today.",
+    },
+    {
+      image: Slider2.src,
+      title: "Your Trusted Partner",
+      description:
+        "We make your path to global opportunities simple and stress-free.",
+    },
+    {
+      image: Slider3.src,
+      title: "Bridge to Opportunities",
+      description: "Connect with high-demand jobs worldwide effortlessly.",
+    },
+    {
+      image: Slider5.src,
+      title: "Your Career Awaits!",
+      description: "Step into a brighter future with Way-Wise Jobs.",
+    },
+  ];
+
 
   
   const CustomNextArrow = (props) => {
@@ -19,7 +42,7 @@ export default function MainSlider() {
     return (
       <div
         onClick={onClick}
-        className="absolute top-[150px] right-0 md:top-[350px] md:right-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 translate-[-top[50%]"
+        className="absolute top-[150px] right-0 lg:top-[350px] md:top-[250px] md:right-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 translate-[-top[50%]"
       >
         <i className="bi bi-arrow-right text-2xl"></i>
       </div>
@@ -32,7 +55,7 @@ export default function MainSlider() {
     return (
       <div
         onClick={onClick}
-        className="absolute top-[150px] md:top-[350px] md:left-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 translate-[-top[50%]"
+        className="absolute top-[150px] lg:top-[350px] md:top-[250px] md:left-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 translate-[-top[50%]"
       >
         <i className="bi bi-arrow-left text-2xl"></i>
       </div>
@@ -49,29 +72,28 @@ export default function MainSlider() {
     autoplaySpeed: 5000,
     cssEase: "linear",
     arrows: true,
-    nextArrow: <CustomNextArrow />, // Assign Custom Next Arrow
-    prevArrow: <CustomPrevArrow />, // Assign Custom Prev Arrow
+    nextArrow: <CustomNextArrow />, 
+    prevArrow: <CustomPrevArrow />, 
   };
 
   return (
     <Slider {...settings}>
       {sliderData.map((item, index) => (
         <div
-          className="md:h-[700px] h-[300px] w-full !flex justify-center items-end focus:outline-none relative"
+          className="lg:h-[700px] md:h-[500px] h-[300px] w-full !flex justify-center items-end focus:outline-none relative"
           key={index}
         >
           <img
-            src={item.src}
+            src={item.image}
             alt=""
             className="object-cover w-full h-full border-none"
           />
-          <div className="absolute top-[130px] md:top-1/2 md:left-[200px] md:-translate-y-1/2 md:max-w-4xl text-center md:text-left">
-            <div className="text-[10px] md:text-2xl font-bold text-white  bg-[#FF902E] inline-block px-4 py-2 rounded-md">
-              <p className="">Lorem ipsum dolor sit.</p>
+          <div className="absolute top-[130px] md:top-1/2 lg:left-[200px] md:left-[100px] md:-translate-y-1/2 md:max-w-4xl text-center md:text-left">
+            <div className="text-[10px] md:text-[20px] font-bold text-white  bg-[#FF902E] uppercase inline-block px-4 py-2 ">
+              <p>{item.title}</p>
             </div>
-            <h2 className="text-[20px] md:text-[40px] font-bold text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi, doloribus!
+            <h2 className="text-[20px] md:text-[40px] font-bold text-white uppercase">
+              {item.description}
             </h2>
           </div>
         </div>

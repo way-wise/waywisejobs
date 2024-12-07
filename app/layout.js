@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Rajdhani, Rubik } from "next/font/google";
+import ScrollToTop from "./components/global/ScrollToTop";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <ScrollToTop />
         <Footer />
       </body>
     </html>

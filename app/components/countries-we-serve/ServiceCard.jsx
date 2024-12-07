@@ -15,17 +15,17 @@
             />
         </div>
         <div className="px-[20px] pt-[20px] pb-[31px]">
-            <h2 className="text-[20px] md:text-[48px] font-bold text-black uppercase font-rajdhani leading-[28px] md:leading-[61px] mb-[8px]">
+            <h2 className="text-[20px] lg:text-[48px] md:text-[30px] font-bold text-black uppercase font-rajdhani leading-[28px] lg:leading-[61px] md:leading-[40px] mb-[8px]">
             {title}
             </h2>
-            <p className="text-[14px] md:text-[20px] font-rubik text-black leading-[24px] md:leading-[28px]">
+            <p className="text-[14px] lg:text-[20px] md:text-[16px] font-rubik text-black leading-[24px] lg:leading-[28px] md:leading-[24px] line-clamp-3">
             {description}
             </p>
         </div>
         <div className="mx-[20px] mb-[18px]">
             <Link
             href={link}
-            className="flex items-center justify-center gap-[10px] bg-[#2A37EA] text-white md:text-[30px] text-[16px] font-bold font-rajdhani uppercase md:leading-[38px] leading-[24px] py-[13px] "
+            className="flex items-center justify-center gap-[10px] bg-[#2A37EA] text-white lg:text-[30px] md:text-[16px] font-bold font-rajdhani uppercase lg:leading-[38px] md:leading-[24px] leading-[24px] py-[13px] "
             >
             Explore
             <svg

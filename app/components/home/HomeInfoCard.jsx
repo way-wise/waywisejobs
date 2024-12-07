@@ -11,28 +11,28 @@ const HomeInfoCard = () => {
       color: "#ffffff",
       icon: "bi bi-building",
       title: <CountUp end={82} duration={5} />, 
-      description: "In Korea",
+      description: "North America",
     },
     {
       background: "#ffffff",
       color: "#2A37EA",
       icon: "bi bi-building",
       title: <CountUp end={150} duration={5}  /> , 
-      description: "In Asia",
+      description: "Asia",
     },
     {
       background: "#FF902E",
       color: "#ffffff",
       icon: "bi bi-building",
       title: <CountUp end={100} duration={5} />, 
-      description: "In Saudi Arabia",
+      description: "Middle East",
     },
     {
       background: "#ffffff",
       color: "#2A37EA",
       icon: "bi bi-building",
       title: <CountUp end={120} duration={5} />, 
-      description: "Projects Completed",
+      description: "Europe",
     },
   ];
 
