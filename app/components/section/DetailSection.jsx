@@ -13,9 +13,9 @@ const DetailSection = () => {
   ];
 
   return (
-    <div className="container mx-auto md:mt-16 mt-[10px]">
-      <div className="flex gap-[30px] w-full">
-        <div className="md:w-[50%]">
+    <div className="container mx-auto lg:mt-[100px] md:mt-[50px] mt-[10px]">
+      <div className="lg:flex gap-[30px] w-full">
+        <div className="lg:w-[50%]">
           <div>
             <h4 className="text-[16px] font-rajdhani uppercase font-bold leading-[29px] text-[#2A37EA]">
               Get informed -
@@ -25,7 +25,7 @@ const DetailSection = () => {
             </h1>
           </div>
 
-          <ul className="flex flex-col md:flex-row gap-4 flex-wrap md:mt-8 mt-4">
+          <ul className="flex flex-col md:flex-row lg:flex-row md:items-center md:justify-center lg:items-start gap-2 flex-wrap lg:mt-8 mt-4">
             {listData.map((item, index) => (
               <li
                 key={index}
@@ -48,11 +48,11 @@ const DetailSection = () => {
             here to make it happen.
           </p>
         </div>
-        <div className="hidden md:block md:w-[50%]">
+        <div className="hidden md:block lg:w-[50%]">
           <img
             src={HomeOne.src}
             alt=""
-            className="w-full h-[500px] object-cover rounded-[50px]"
+            className="w-full lg:h-[500px] md:h-[300px] h-[200px] object-cover lg:rounded-[50px] md:rounded-[30px] rounded-[10px] mt-[10px]"
           />
         </div>
       </div>

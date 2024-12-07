@@ -20,7 +20,7 @@ const Header = () => {
           <Image src={Logo} alt="logo" width={300} height={90} className='w-[250px] md:w-[300px]' />
         </div>
 
-        <nav className="hidden md:flex flex-wrap space-x-6 uppercase text-lg md:text-xl lg:text-2xl font-rajdhani font-bold">
+        <nav className="hidden lg:flex flex-wrap space-x-6 uppercase text-lg md:text-xl lg:text-2xl font-rajdhani font-bold">
           <Link
             href="/"
             className={`hover:text-[#FF902E] ${
@@ -55,11 +55,11 @@ const Header = () => {
           </a>
         </nav>
 
-        <div className="hidden md:flex flex-col md:flex-row items-center mt-4 md:mt-0">
-          <div className="pr-4 md:pr-[50px]">
+        <div className="hidden lg:flex flex-col lg:flex-row items-center mt-4 lg:mt-0">
+          <div className="pr-4 lg:pr-[50px]">
             <Flipbook />
           </div>
-          <div className="bg-[#FF902E] flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 md:pr-[50px] md:pl-[34px] py-[12px] md:py-[25px]">
+          <div className="bg-[#FF902E] flex flex-col lg:flex-row items-center justify-center gap-2 md:gap-4 text-center text-white p-2 lg:pr-[50px] lg:pl-[34px] py-[12px] lg:py-[25px]">
             <i className="bi bi-telephone-fill text-[20px] md:text-[26px]"></i>
             <div className="flex flex-col">
               <a
@@ -81,7 +81,7 @@ const Header = () => {
         
 
         <div
-          className="md:hidden text-black text-[50px] pr-[20px] mt-[5px] cursor-pointer"
+          className="lg:hidden text-black text-[50px] pr-[20px] mt-[5px] cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <i className={`bi ${menuOpen ? "bi-x" : "bi-list"}`}></i>
@@ -89,7 +89,7 @@ const Header = () => {
 
       </header>
         <div
-          className={`fixed top-[80px] left-0 w-full bg-white shadow-lg z-50 flex flex-col items-center space-y-4 py-6 md:hidden transition-transform duration-300 ${
+          className={`fixed top-[80px] left-0 w-full bg-white shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden transition-transform duration-300 ${
             menuOpen ? "translate-x-0 visible" : "translate-x-full invisible"
           }`}
         >

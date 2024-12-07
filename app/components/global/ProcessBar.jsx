@@ -6,37 +6,27 @@ const ProcessBar = () => {
     {
       id: "01",
       icon: "bi bi-file-earmark-text",
-      title: "Submit Your Application",
-      description:
-        "Share your resume and job preferences with us. Our team will evaluate your skills and match you with the best opportunities abroad.",
+      title: "Submit Your Application"
     },
     {
       id: "02",
       icon: "bi bi-clipboard-data",
       title: "Personalized Consultation",
-      description:
-        "Get expert guidance tailored to your career goals. We’ll discuss job options, countries, and the recruitment process in detail.",
     },
     {
       id: "03",
       icon: "bi bi-passport",
       title: "Documentation & Visa Assistance",
-      description:
-        "From gathering required documents to visa processing, we take care of every detail to ensure a hassle-free experience.",
     },
     {
       id: "04",
       icon: "bi bi-buildings-fill",
       title: "Job Placement",
-      description:
-        "Once everything is finalized, we assist with travel arrangements and ensure you’re ready for your new journey.",
     },
     {
       id: "05",
       icon: "bi bi-check-circle",
       title: "Ongoing Support",
-      description:
-        "Even after you’ve started your new job, we’re here to provide continuous support to ensure your success abroad.",
     },
   ];
 
@@ -62,9 +52,6 @@ const ProcessBar = () => {
             <h3 className="text-[20px] font-rajdhani font-bold mt-4 text-black">
               {step.title}
             </h3>
-            <p className="text-[16px] font-rubik text-gray-500 mt-2">
-              {step.description}
-            </p>
           </div>
         ))}
       </div>

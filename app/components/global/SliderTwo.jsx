@@ -48,7 +48,7 @@ export default function SliderTwo() {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 890,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -71,7 +71,7 @@ export default function SliderTwo() {
         {sliderData.map((item, index) => (
           <div
             href={item.link}
-            className="md:h-[520px] h-[400px] px-[30px] flex justify-center items-center focus:outline-none md:mt-[90px] mt-[220px]"
+            className=" lg:h-[520px] md:h-[420px] h-[300px] px-[30px] flex justify-center items-center focus:outline-none md:mt-[90px] mt-[220px]"
             key={index}
           >
             <img

@@ -40,13 +40,13 @@ const About = () => {
     <main>
       <BreadcrumbSection />
 
-      <section className=" container mx-auto px-4 md:py-[64px] py-[30px] md:flex gap-[30px]">
+      <section className=" container mx-auto px-4 lg:py-[64px] md:py-[40px] py-[30px] lg:flex gap-[30px]">
         <div>
           <div className="md:mb-[30px] mb-[10px]">
-            <h4 className="font-rajdhani font-bold md:text-[16px] text-[14px] leading-[29px] text-[#2A37EA] uppercase mb-[15px]">
+            <h4 className="font-rajdhani font-bold lg:text-[16px] md:text-[14px] text-[14px] leading-[29px] text-[#2A37EA] uppercase mb-[15px]">
               Get informed <span>-</span>
             </h4>
-            <h2 className="font-rajdhani md:text-[48px] text-[20px] text-black leading-[53px] font-bold uppercase">
+            <h2 className="font-rajdhani lg:text-[48px] md:text-[30px] text-[20px] text-black leading-[53px] font-bold uppercase">
               Let’s Build Something Creative together
             </h2>
           </div>
@@ -82,7 +82,7 @@ const About = () => {
         <img
           src={FirstImg.src}
           alt=""
-          className="md:w-[80%] w-full md:h-[700px] h-[300px] object-cover md:rounded-[30px] rounded-[10px] mt-[30px]"
+          className="lg:w-[80%] w-full lg:h-[700px] md:h-[400px] h-[300px] object-cover lg:rounded-[30px] md:rounded-[20px] rounded-[10px] mt-[30px]"
         />
       </section>
       <section className=" bg-gray-100 md:mt-[100px] mt-[50px] md:space-y-10 space-y-5 md:pt-[100px] pt-[50px]">

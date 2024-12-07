@@ -5,7 +5,7 @@ const Cta = () => {
   return (
     <section className="bg-gray-100 md:py-[150px] py-[50px]">
       <div className="container">
-        <div className="flex flex-col gap-4 md:flex-row md:justify-between md:items-center">
+        <div className="flex flex-col gap-4 lg:flex-row lg:justify-between lg:items-center">
           <div>
             <h4 className="font-rajdhani md:text-[16px] text-[14px] text-[#2A37EA] leading-[28px] font-bold uppercase mb-[5px]">
               Get Informed -
@@ -14,7 +14,7 @@ const Cta = () => {
               {`Unlock Your Potential, Work Without Borders!`}
             </h2>
           </div>
-          <button className="bg-transparent border border-[#2A37EA] text-[#2A37EA] px-[30px] py-[15px] rounded-[5px] font-rajdhani text-[16px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300">
+          <button className="bg-transparent border border-[#2A37EA] text-[#2A37EA] md:w-[200px] lg:px-[30px] px-[15px] lg:py-[15px] py-[10px] rounded-[5px] font-rajdhani text-[16px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300">
             <a href="/contact-us">Contact Us +</a>
           </button>
         </div>
