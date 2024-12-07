@@ -5,7 +5,7 @@ import HeroSaudi from "@/image/hero/saudi.png";
 import HeroImg from "../components/global/HeroImg";
 import Cta from "../components/global/Cta";
 import CtaTwo from "../components/global/CtaTwo";
-import ServiceImgOne from "@/image/country-page/Service-6.jpg";
+import ServiceImgOne from "@/image/country-page/service-6.jpg";
 import ServiceImgTwo from "@/image/country-page/Service-7.jpg";
 import ServiceImgThree from "@/image/country-page/Service-8.jpg";
 import ServiceImgFour from "@/image/country-page/Service-16.jpg";
