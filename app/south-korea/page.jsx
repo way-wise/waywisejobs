@@ -5,11 +5,11 @@ import HeroKorea from "@/image/hero/korea.png";
 import HeroImg from "../components/global/HeroImg";
 import Cta from "../components/global/Cta";
 import CtaTwo from "../components/global/CtaTwo";
-import ServiceImgOne from "@/image/country-page/Service-13.jpg";
-import ServiceImgTwo from "@/image/country-page/Service-14.jpg";
-import ServiceImgThree from "@/image/country-page/Service-15.jpg";
-import ServiceImgFour from "@/image/country-page/Service-17.jpg";
-import ServiceImgFive from "@/image/country-page/Service-2.png";
+import ServiceImgOne from "@/image/country-page/service-13.jpg";
+import ServiceImgTwo from "@/image/country-page/service-14.jpg";
+import ServiceImgThree from "@/image/country-page/service-15.jpg";
+import ServiceImgFour from "@/image/country-page/service-17.jpg";
+import ServiceImgFive from "@/image/country-page/service-2.png";
 
 const SouthKorea = () => {
   const ServiceOne = {
