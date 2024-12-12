@@ -27,7 +27,7 @@ const CtaTwo = () => {
             <i className="bi bi-telephone-fill md:text-[20px] text-[16px] text-[#2A37EA]"></i>
             <a
               href="tel:+13107565533"
-              className="md:text-[22px] text-[18px] text-black font-rajdhani font-semibold"
+              className="md:text-[22px] text-[17px] text-black font-rajdhani font-semibold"
             >
               +1 (310) 756 5533
             </a>
@@ -36,7 +36,7 @@ const CtaTwo = () => {
             </span>
             <a
               href="tel:+8801748771945"
-              className="md:text-[24px] text-[18px] text-black font-rajdhani font-semibold"
+              className="md:text-[24px] text-[17px] text-black font-rajdhani font-semibold"
             >
               +880 1748 771 945
             </a>
