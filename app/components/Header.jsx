@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import {usePathname } from 'next/navigation';
-import Logo from '@/image/logo-1.svg'
+import Logo from '@/image/Logo-1.svg'
 import Image from 'next/image';
 import Flipbook from './global/Flipbook';
 

@@ -5,10 +5,10 @@ import HeroUae from '@/image/hero/uae.png'
 import HeroImg from '../components/global/HeroImg'
 import Cta from '../components/global/Cta'
 import CtaTwo from '../components/global/CtaTwo'
-import ServiceImgOne from '@/image/country-page/Service-7.jpg'
-import ServiceImgTwo from '@/image/country-page/Service-9.jpg'
-import ServiceImgThree from '@/image/country-page/Service-10.jpg'
-import ServiceImgFour from '@/image/country-page/Service-11.jpg'  
+import ServiceImgOne from '@/image/country-page/service-7.jpg'
+import ServiceImgTwo from '@/image/country-page/service-9.jpg'
+import ServiceImgThree from '@/image/country-page/service-10.jpg'
+import ServiceImgFour from '@/image/country-page/service-11.jpg'  
 
 
 const UnitedArabEmirates = () => {

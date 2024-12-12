@@ -5,10 +5,10 @@ import HeroUsa from "@/image/hero/usa.png";
 import HeroImg from "../components/global/HeroImg";
 import Cta from "../components/global/Cta";
 import CtaTwo from "../components/global/CtaTwo";
-import ServiceImgOne from "@/image/country-page/Service-1.png";
-import ServiceImgTwo from "@/image/country-page/Service-2.png";
-import ServiceImgThree from "@/image/country-page/Service-3.png";
-import ServiceImgFour from "@/image/country-page/Service-4.png";
+import ServiceImgOne from "@/image/country-page/service-1.png";
+import ServiceImgTwo from "@/image/country-page/service-2.png";
+import ServiceImgThree from "@/image/country-page/service-3.png";
+import ServiceImgFour from "@/image/country-page/service-4.png";
 
 
 const UnitedStates = () => {
