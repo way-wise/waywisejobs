@@ -2,12 +2,12 @@
 import Image from 'next/image';
 import React from 'react'
 import CtaIcn from '@/image/icon.svg'
-import CtaImg from '@/image/CtaOne.jpg'
+import CtaImg from '@/image/Cta1.png'
 
 const CtaTwo = () => {
   return (
     <div className="relative">
-      <div className="relative lg:w-[80%] md:h-[500px] w-full h-[400px] ">
+      <div className="relative w-full md:h-[700px] h-[400px] ">
         <Image
           src={CtaImg.src}
           alt="cta-two"
@@ -15,7 +15,7 @@ const CtaTwo = () => {
           className="object-cover bg-left-bottom"
         />
       </div>
-      <div className=" bg-white pl-[30px] pb-[30px] pr-[30px] pt-[20px] lg:w-[40%] md:w-[90%] w-full absolute -bottom-[150px] md:-bottom-[90px] left-0  border-b md:border-b-[8px] border-solid border-gray-200">
+      <div className=" bg-white px-[30px] py-[40px] lg:w-[40%] md:w-[90%] w-full h-max absolute  left-0 -bottom-[30%] md:top-1/2 md:-translate-y-1/2 border-b  border-solid border-gray-200">
         <h2 className="md:text-[40px] text-[24px] text-black font-rajdhani font-bold uppercase mt-[15px]">
           GET YOUR <span className="text-[#2A37EA]">FREE</span> CONSULTING
         </h2>

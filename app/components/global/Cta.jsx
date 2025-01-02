@@ -9,7 +9,7 @@ const Cta = () => {
             <h4 className="font-rajdhani md:text-[16px] text-[14px] text-[#2A37EA] leading-[28px] font-bold uppercase mb-[5px]">
               Get Informed -
             </h4>
-            <h2 className="font-rajdhani md:text-[48px] text-[20px] text-black leading-[53px] font-bold uppercase">
+            <h2 className="font-rajdhani md:text-[48px] text-[20px] text-black md:leading-[53px] font-bold uppercase">
               Unlock Your Potential, Work <br /> Without Borders!
             </h2>
           </div>
