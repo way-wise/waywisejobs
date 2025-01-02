@@ -17,7 +17,9 @@ const Header = () => {
     <>
       <header className="bg-white/80 flex flex-wrap md:flex-nowrap justify-between items-center top-0 left-0 w-full z-[999] sticky backdrop-blur">
         <div className="flex items-center px-4 sm:px-8  md:pl-[50px] md:pr-[80px] py-[10px] md:py-[20px]">
+          <Link href="/">
           <Image src={Logo} alt="logo" width={300} height={90} className='w-[250px] md:w-[300px]' />
+          </Link>
         </div>
 
         <nav className="hidden lg:flex flex-wrap space-x-6 uppercase text-lg md:text-xl lg:text-2xl font-rajdhani font-bold">
