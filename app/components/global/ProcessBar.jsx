@@ -20,7 +20,7 @@ const ProcessBar = () => {
     },
     {
       id: "04",
-      icon: "bi bi-buildings-fill",
+      icon: "bi bi-suitcase-lg",
       title: "Job Placement",
     },
     {
@@ -49,7 +49,7 @@ const ProcessBar = () => {
             <div className="relative text-gray-500 group-hover:text-[#2A37EA] p-4 rounded-full">
               <i className={`${step.icon} text-[40px]`}></i>
             </div>
-            <h3 className="text-[20px] font-rajdhani font-bold mt-4 text-gray-500">
+            <h3 className="text-[20px] font-rajdhani font-bold mt-4 text-gray-500 ">
               {step.title}
             </h3>
           </div>

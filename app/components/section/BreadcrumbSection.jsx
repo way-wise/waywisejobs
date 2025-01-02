@@ -6,7 +6,7 @@ import React from "react";
 const BreadcrumbSection = () => {
   const url = usePathname();
   const withOutSlash = url.replace("/", "");
-  const breadcrumbTitle = withOutSlash.replace("-", " ");
+  const breadcrumbTitle = withOutSlash.replaceAll("-", " ");
 
   
   return (

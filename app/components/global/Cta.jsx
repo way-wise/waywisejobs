@@ -13,12 +13,12 @@ const Cta = () => {
               Unlock Your Potential, Work <br /> Without Borders!
             </h2>
           </div>
-          <button className="bg-transparent border border-[#2A37EA] text-[#2A37EA] md:w-[200px] lg:px-[30px] px-[15px] lg:py-[15px] py-[10px] rounded-[5px] font-rajdhani text-[16px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300">
+          <button className="bg-transparent border border-[#2A37EA] text-[#2A37EA] md:w-[200px] lg:px-[30px] px-[15px] lg:py-[15px] py-[10px] rounded-[5px] font-rajdhani text-[20px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300">
             <a href="/contact-us">Contact Us +</a>
           </button>
         </div>
 
-        <p className="text-[16px] font-medium text-black leading-[28px] font-rajdhani md:mt-[90px] mt-[50px] flex flex-col md:flex-row md:items-center">
+        <p className="text-[20px] font-medium text-black leading-[28px] font-rajdhani md:mt-[90px] mt-[50px] flex flex-col md:flex-row md:items-center">
           Don’t hesitate, contact us for better help and services.{" "}
           <a
             href="/countries-we-serve"

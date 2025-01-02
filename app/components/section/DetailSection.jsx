@@ -25,7 +25,7 @@ const DetailSection = () => {
             </h1>
           </div>
 
-          <ul className="flex flex-col md:flex-row lg:flex-row md:items-center md:justify-center lg:items-start gap-2 flex-wrap lg:mt-8 mt-4">
+          <ul className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-start gap-2 flex-wrap lg:mt-8 mt-4">
             {listData.map((item, index) => (
               <li
                 key={index}

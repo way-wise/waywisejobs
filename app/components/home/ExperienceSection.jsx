@@ -19,7 +19,7 @@ const ExperienceSection = () => {
                 Ready to take the first step? Reach out to us now and unlock
                 your future!
               </h2>
-              <p className="w-full mt-auto md:text-[16px] text-[14px] font-medium text-[#2A37EA] leading-[28px] text-center font-rajdhani md:pl-[45px] md:pb-[64px] ">
+              <p className="w-full mt-auto text-[20px] font-medium text-[#2A37EA] leading-[28px] text-center font-rajdhani md:pl-[45px] md:pb-[64px] ">
                 We’re ready to discover and unlock your market.{" "}
                 <a
                   href="/contact-us"

@@ -21,6 +21,7 @@ const Flipbook = () => {
           alt="flipbook"
           width={30}
           height={30}
+          style={{border: "1px solid rgba(0, 0, 252, 0.5)", boxShadow: "1px 1px 1px rgba(0, 0, 252, 0.5)"}}
         />
         Company Profile{" "}
         {/* <span className="text-[20px] group-hover:translate-x-2 inline-block transition-transform duration-300">
