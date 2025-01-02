@@ -8,7 +8,7 @@ const InfoCard = ({ item }) => {
       className={`p-[10px] md:p-[20px] lg:px-[30px]  relative`}
     >
       {item.description !== "North America" && (
-        <div className="absolute border-l-2 border-solid border-gray-200 h-20 top-4"></div>
+        <div className="absolute border-l-2 border-solid border-gray-200 md:h-20 top-4"></div>
       )}
       <div className=" flex items-center justify-center">
         <div className="flex lg:flex-row flex-col items-center gap-8">
