@@ -49,7 +49,7 @@ const ProcessBar = () => {
             <div className="relative text-[#FF902E] group-hover:text-[#2A37EA] p-4 rounded-full">
               <i className={`${step.icon} text-[40px]`}></i>
             </div>
-            <h3 className="text-[20px] font-rajdhani font-bold mt-4 text-black">
+            <h3 className="text-[20px] font-rajdhani font-bold mt-4 text-gray-500">
               {step.title}
             </h3>
           </div>

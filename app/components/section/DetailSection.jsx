@@ -17,7 +17,7 @@ const DetailSection = () => {
       <div className="lg:flex gap-[30px] w-full">
         <div className="lg:w-[50%]">
           <div>
-            <h4 className="text-[16px] font-rajdhani uppercase font-bold leading-[29px] text-[#2A37EA]">
+            <h4 className="text-[16px] font-rajdhani uppercase font-bold leading-[29px] text-[#FF902E]">
               Get informed -
             </h4>
             <h1 className="md:text-[54px] text-[20px] font-bold font-rajdhani uppercase leading-[64px] text-black">

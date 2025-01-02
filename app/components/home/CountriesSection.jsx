@@ -12,25 +12,25 @@ const CountriesSection = () => {
       country: ["Canada", "United States"],
       image: NorthAmerica.src,
       tag: "North America",
-      link: "/countries-we-serve",
+      link: "/countries-we-serve/north-america",
     },
     {
       country: ["South Korea"],
       image: Asia.src,
       tag: "Asia",
-      link: "/countries-we-serve",
+      link: "/countries-we-serve/asia",
     },
     {
       country: ["UAE", "Saudi Arabia"],
       image: MiddleEast.src,
       tag: "Middle East",
-      link: "/countries-we-serve"
+      link: "/countries-we-serve/middle-east"
     },
     {
       country: ["Italy"],
       image: Europe.src,
       tag: "Europe",
-      link: "/countries-we-serve",
+      link: "/countries-we-serve/europe",
     },
   ];
 

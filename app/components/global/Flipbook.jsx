@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-
+import Image from "next/image";
 const Flipbook = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,12 +14,18 @@ const Flipbook = () => {
       {/* Button to open the popup */}
       <button
         onClick={togglePopup}
-        className="bg-transparent border border-[#2A37EA] text-[#2A37EA] px-[30px] py-[15px] rounded-[5px] font-rajdhani text-[16px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300 group"
+        className="flex items-center gap-3 bg-transparent border border-[#2A37EA] text-[#2A37EA] px-[20px] py-[10px] rounded-[5px] font-rajdhani text-[16px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300 group"
       >
+        <Image
+          src="/image/magazine.jpg"
+          alt="flipbook"
+          width={30}
+          height={30}
+        />
         Company Profile{" "}
-        <span className="text-[20px] group-hover:translate-x-2 inline-block transition-transform duration-300">
+        {/* <span className="text-[20px] group-hover:translate-x-2 inline-block transition-transform duration-300">
           +
-        </span>
+        </span> */}
       </button>
 
       {/* Popup */}

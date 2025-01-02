@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from "react";
 
 const Cta = () => {
   return (
@@ -11,7 +10,7 @@ const Cta = () => {
               Get Informed -
             </h4>
             <h2 className="font-rajdhani md:text-[48px] text-[20px] text-black leading-[53px] font-bold uppercase">
-              {`Unlock Your Potential, Work Without Borders!`}
+              Unlock Your Potential, Work <br /> Without Borders!
             </h2>
           </div>
           <button className="bg-transparent border border-[#2A37EA] text-[#2A37EA] md:w-[200px] lg:px-[30px] px-[15px] lg:py-[15px] py-[10px] rounded-[5px] font-rajdhani text-[16px] leading-[28px] font-bold uppercase hover:bg-[#2A37EA] hover:text-white transition-all duration-300">
@@ -19,11 +18,11 @@ const Cta = () => {
           </button>
         </div>
 
-        <p className="text-[16px] font-medium text-black leading-[28px] font-rajdhani text-center md:mt-[90px] mt-[50px] flex flex-col md:flex-row md:justify-center md:items-center">
+        <p className="text-[16px] font-medium text-black leading-[28px] font-rajdhani md:mt-[90px] mt-[50px] flex flex-col md:flex-row md:items-center">
           Don’t hesitate, contact us for better help and services.{" "}
           <a
             href="/countries-we-serve"
-            className="text-[#FF902E] font-bold relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#FF902E] after:transition-all after:duration-700 hover:after:w-full"
+            className="text-[#2A37EA] font-bold relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#2A37EA] after:transition-all after:duration-700 hover:after:w-full"
           >
             VIEW MORE SERVICES +
           </a>
@@ -31,6 +30,6 @@ const Cta = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Cta;
