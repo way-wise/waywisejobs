@@ -6,11 +6,11 @@ import HeroImg from "../components/global/HeroImg";
 import Cta from "../components/global/Cta";
 import CtaTwo from "../components/global/CtaTwo";
 import ServiceImgOne from "@/image/country-page/service-19.jpg";
-import ServiceImgTwo from "@/image/country-page/service-7.jpg";
-import ServiceImgThree from "@/image/country-page/service-8.jpg";
-import ServiceImgFour from "@/image/country-page/service-16.jpg";
-import ServiceImgFive from "@/image/country-page/service-5.jpg";
-import ServiceImgSix from "@/image/country-page/service-19.jpg";
+import ServiceImgTwo from "@/image/country-page/service-20.jpg";
+import ServiceImgThree from "@/image/country-page/service-21.jpg";
+import ServiceImgFour from "@/image/country-page/service-22.jpg";
+import ServiceImgFive from "@/image/country-page/service-23.jpg";
+import ServiceImgSix from "@/image/country-page/service-24.jpg";
 
 const SaudiArabia = () => {
   // const ServiceOne = {
@@ -61,35 +61,35 @@ const SaudiArabia = () => {
     title: "Hotel & Hospitality Services",
     description:
       "Way Wise Jobs specializes in providing comprehensive staffing solutions for Saudi Arabia's luxury hotel sector. We supply qualified professionals across all hotel operations including front desk management, concierge services, housekeeping supervision, food & beverage service, culinary teams, and executive management positions. Our candidates are carefully selected and trained to deliver exceptional guest experiences while maintaining the highest standards of hospitality.",
-    image: ServiceImgOne.src,
+    image: ServiceImgTwo.src,
   };
 
   const ServiceThree = {
     title: "Facility Management",
     description:
       "Our facility management services ensure smooth operations of hotels and commercial properties across Saudi Arabia. We provide skilled professionals in areas such as maintenance, technical services, cleaning operations, security management, and property administration. Our team ensures properties maintain peak operational efficiency while meeting all local regulations and international standards.",
-    image: ServiceImgTwo.src,
+    image: ServiceImgThree.src,
   };
 
   const ServiceFour = {
     title: "Staff Training & Development",
     description:
       "We offer specialized training programs designed specifically for the hospitality sector in Saudi Arabia. Our comprehensive training covers customer service excellence, cultural awareness, operational procedures, and management techniques. We ensure all staff are well-versed in both international hospitality standards and local customs, creating a workforce that excels in service delivery.",
-    image: ServiceImgThree.src,
+    image: ServiceImgFour.src,
   };
 
   const ServiceFive = {
     title: "Event Management Services",
     description:
       "Way Wise Jobs provides specialized staffing solutions for events and conferences within the hospitality sector. From event planners and coordinators to service staff and technical support, we ensure every event is executed flawlessly. Our professionals are experienced in handling both intimate gatherings and large-scale corporate events in Saudi Arabia's premier venues.",
-    image: ServiceImgFour.src,
+    image: ServiceImgFive.src,
   };
 
   const ServiceSix = {
     title: "Our Process",
     description:
       "Way Wise Jobs follows a structured recruitment and onboarding process in Saudi Arabia. We begin by conducting thorough interviews and screening to identify qualified hospitality professionals, followed by comprehensive skill assessments. Our preparation includes specialized training programs, including language and cultural orientation courses. We facilitate employer visits and practical evaluations to ensure mutual satisfaction. Additionally, we manage compliance with labor laws and nationalization policies like Saudization, while arranging travel and onboarding logistics to ensure a smooth placement process.",
-    image: ServiceImgFive.src,
+    image: ServiceImgSix.src,
   };
 
   const HeroDataSaudi = {
