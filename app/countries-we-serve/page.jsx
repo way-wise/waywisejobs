@@ -35,9 +35,9 @@ export const ServiceCardData = [
     id: "middle-east"
   },
   {
-    title: "Saudi Arabia",
+    title: "Saudi Arabia", 
     description:
-      "We offer staffing solutions for oil & gas, construction, healthcare, and engineering, aligning with Vision 2030 to support growth.",
+      "We specialize in providing highly qualified hotel and hospitality staff for Saudi Arabia's growing tourism sector, helping deliver world-class guest experiences.",
     image: SaudiImg.src,
     link: "/saudi-arabia",
     id: "middle-east"

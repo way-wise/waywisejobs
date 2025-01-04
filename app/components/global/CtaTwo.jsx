@@ -12,10 +12,10 @@ const CtaTwo = () => {
           src={CtaImg.src}
           alt="cta-two"
           fill
-          className="object-cover bg-left-bottom"
+          className="object-cover"
         />
       </div>
-      <div className=" bg-white px-[30px] py-[40px] lg:w-[40%] md:w-[90%] w-full h-max absolute  left-0 -bottom-[30%] md:top-1/2 md:-translate-y-1/2 border-b  border-solid border-gray-200">
+      <div className=" bg-white px-[30px] py-[40px] lg:w-[40%] md:w-[90%] w-full h-max absolute  left-0 -bottom-[70%] md:top-1/2 md:-translate-y-1/2 border-b  border-solid border-gray-200">
         <h2 className="md:text-[40px] text-[24px] text-black font-rajdhani font-bold uppercase mt-[15px]">
           GET YOUR <span className="text-[#2A37EA]">FREE</span> CONSULTING
         </h2>
@@ -23,7 +23,7 @@ const CtaTwo = () => {
           {`Don't Wait—Transform Your Career Now!`}
         </p>
         <div className="items-center gap-2  mt-[30px]">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap">
             <i className="bi bi-telephone-fill md:text-[20px] text-[16px] text-[#2A37EA]"></i>
             <a
               href="tel:+1 (310) 528 6170"
