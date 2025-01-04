@@ -5,12 +5,12 @@ import HeroSaudi from "@/image/hero/saudi.png";
 import HeroImg from "../components/global/HeroImg";
 import Cta from "../components/global/Cta";
 import CtaTwo from "../components/global/CtaTwo";
-import ServiceImgOne from "@/image/country-page/service-6.jpg";
+import ServiceImgOne from "@/image/country-page/service-19.jpg";
 import ServiceImgTwo from "@/image/country-page/service-7.jpg";
 import ServiceImgThree from "@/image/country-page/service-8.jpg";
 import ServiceImgFour from "@/image/country-page/service-16.jpg";
 import ServiceImgFive from "@/image/country-page/service-5.jpg";
-import ServiceImgSix from "@/image/country-page/service-15.jpg";
+import ServiceImgSix from "@/image/country-page/service-19.jpg";
 
 const SaudiArabia = () => {
   // const ServiceOne = {
@@ -54,7 +54,7 @@ const SaudiArabia = () => {
     title: "Our Operations",
     description:
       "In Saudi Arabia, Way Wise Jobs specializes in comprehensive hospitality staffing solutions. We excel in providing qualified professionals across hotel operations, including front desk management, concierge services, housekeeping, and food & beverage. Our facility management division ensures smooth property operations through skilled maintenance, technical, and security staff. We offer specialized training programs focused on hospitality excellence and cultural awareness. Additionally, we provide complete event management staffing, from planners to service personnel. Our structured recruitment process includes thorough screening, training, and seamless onboarding while ensuring compliance with local regulations like Saudization.",
-    image: ServiceImgSix.src,
+    image: ServiceImgOne.src,
   };
 
   const ServiceTwo = {
