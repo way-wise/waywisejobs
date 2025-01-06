@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Cta = () => {
@@ -19,13 +20,13 @@ const Cta = () => {
         </div>
 
         <p className="text-[20px] font-medium text-black leading-[28px] font-rajdhani md:mt-[90px] mt-[50px] flex flex-col md:flex-row md:items-center">
-          Don’t hesitate, contact us for better help and services.{" "}
-          <a
+          Don&apos;t hesitate, contact us for better help and services.{" "}
+          <Link
             href="/countries-we-serve"
             className="text-[#2A37EA] font-bold relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#2A37EA] after:transition-all after:duration-700 hover:after:w-full"
           >
             VIEW MORE SERVICES +
-          </a>
+          </Link>
         </p>
       </div>
     </section>
