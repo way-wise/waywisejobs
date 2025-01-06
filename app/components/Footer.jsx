@@ -6,7 +6,7 @@ import Logo from '@/image/Logo-2.svg'
 import Link from 'next/link';
 const Footer = () => {
   return (
-    <footer className="bg-[#2A37EA] mt-[100px]">
+    <footer className="bg-black mt-[100px]">
       <div className="container mx-auto">
         <div className="pt-[40px] pb-[15px] md:flex justify-between">
           <div className="flex flex-col gap-4 items-center pt-[30px]">
@@ -52,6 +52,22 @@ const Footer = () => {
                   Contact Us
                 </Link>
               </li>
+              <li className="text-[16px] leading-[26px] pb-[12px]">
+                <Link
+                  href="/privacy-policy"
+                  className="hover:text-white/90 transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li className="text-[16px] leading-[26px] pb-[12px]">
+                <Link
+                  href="/terms-and-conditions"
+                  className="hover:text-white/90 transition-colors"
+                >
+                  Trems & Conditions
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="text-white font-rajdhani md:max-w-[600px]">
@@ -61,6 +77,12 @@ const Footer = () => {
                   CONTACT US
                 </h2>
                 <div className="flex flex-col gap-2">
+                  <a
+                    href="tel:+1 (310) 528 6170"
+                    className="font-bold text-[20px] leading-[28px] text-white"
+                  >
+                    +1 (310) 528 6170
+                  </a>
                   <a
                     href="tel:+1 (310) 756 5533"
                     className="font-bold text-[20px] leading-[28px] text-white"
@@ -84,7 +106,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <form className="flex gap-2">
+            {/* <form className="flex gap-2">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -96,7 +118,7 @@ const Footer = () => {
               >
                 Subscribe
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
         <div className="border-t border-gray-700 mt-10 group">
