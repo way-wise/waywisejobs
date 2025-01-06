@@ -2,20 +2,20 @@
 import Image from 'next/image';
 import React from 'react'
 import CtaIcn from '@/image/icon.svg'
-import CtaImg from '@/image/CtaOne.jpg'
+import CtaImg from '@/image/Cta1.png'
 
 const CtaTwo = () => {
   return (
     <div className="relative">
-      <div className="relative lg:w-[80%] md:h-[500px] w-full h-[400px] ">
+      <div className="relative w-full md:h-[700px] h-[400px] ">
         <Image
           src={CtaImg.src}
           alt="cta-two"
           fill
-          className="object-cover bg-left-bottom"
+          className="object-cover"
         />
       </div>
-      <div className=" bg-white pl-[30px] pb-[30px] pr-[30px] pt-[20px] lg:w-[40%] md:w-[90%] w-full absolute -bottom-[150px] md:-bottom-[90px] left-0  border-b md:border-b-[8px] border-solid border-gray-200">
+      <div className=" bg-white px-[30px] py-[40px] lg:w-[40%] md:w-[90%] w-full h-max absolute  left-0 -bottom-[70%] md:top-1/2 md:-translate-y-1/2 border-b  border-solid border-gray-200">
         <h2 className="md:text-[40px] text-[24px] text-black font-rajdhani font-bold uppercase mt-[15px]">
           GET YOUR <span className="text-[#2A37EA]">FREE</span> CONSULTING
         </h2>
@@ -23,11 +23,20 @@ const CtaTwo = () => {
           {`Don't Wait—Transform Your Career Now!`}
         </p>
         <div className="items-center gap-2  mt-[30px]">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap">
             <i className="bi bi-telephone-fill md:text-[20px] text-[16px] text-[#2A37EA]"></i>
             <a
+              href="tel:+1 (310) 528 6170"
+              className="md:text-[22px] text-[17px] text-black font-rajdhani font-semibold"
+            >
+              +1 (310) 528 6170
+            </a>
+            <span className="md:text-[16px] text-[12px] text-black font-rubik">
+              Or
+            </span>
+            <a
               href="tel:+13107565533"
-              className="md:text-[22px] text-[18px] text-black font-rajdhani font-semibold"
+              className="md:text-[22px] text-[17px] text-black font-rajdhani font-semibold"
             >
               +1 (310) 756 5533
             </a>
@@ -36,7 +45,7 @@ const CtaTwo = () => {
             </span>
             <a
               href="tel:+8801748771945"
-              className="md:text-[24px] text-[18px] text-black font-rajdhani font-semibold"
+              className="md:text-[24px] text-[17px] text-black font-rajdhani font-semibold"
             >
               +880 1748 771 945
             </a>

@@ -7,14 +7,15 @@ const ContactUs = () => {
   const contactCardItems = [
     {
       title: "United States",
-      phone: "+1 (310) 756 5533",
+      phone1: "+1 (310) 528 6170",
+      phone2: "+1 (310) 756 5533",
       email: "info@waywisejobs.com",
       address: "Saddleback Ridge Rd, Santa Clarita, California,USA",
       number: 1,
     },
     {
       title: "Bangladesh",
-      phone: "+880 1748 771 945",
+      phone1: "+880 1748 771 945",
       email: "info@waywisejobs.com",
       address: "House-148, Road-22, Mohakhali DOHS, Dhaka-1206",
       number: 2,
@@ -37,7 +38,7 @@ const ContactUs = () => {
               ))}
             </div>
           </div>
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
       </section>
       <section>

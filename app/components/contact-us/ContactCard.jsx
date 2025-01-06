@@ -14,10 +14,16 @@ const ContactCard = ({ item }) => {
       <div className="text-center space-y-2 flex flex-col items-center">
         <h2 className="text-xl font-bold text-gray-800 mb-2">{item.title}</h2>
         <a
-          href={`tel:${item.phone}`}
+          href={`tel:${item.phone1}`}
           className="font-rajdhani font-bold text-[18px] text-[#2A37EA] hover:text-[#2A37EA]"
         >
-          {item.phone}
+          {item.phone1}
+        </a>
+        <a
+          href={`tel:${item.phone2}`}
+          className="font-rajdhani font-bold text-[18px] text-[#2A37EA] hover:text-[#2A37EA]"
+        >
+          {item.phone2}
         </a>
         <a
           href={`mailto:${item.email}`}

@@ -17,7 +17,7 @@ const DetailSection = () => {
       <div className="lg:flex gap-[30px] w-full">
         <div className="lg:w-[50%]">
           <div>
-            <h4 className="text-[16px] font-rajdhani uppercase font-bold leading-[29px] text-[#2A37EA]">
+            <h4 className="text-[16px] font-rajdhani uppercase font-bold leading-[29px] text-[#FF902E]">
               Get informed -
             </h4>
             <h1 className="md:text-[54px] text-[20px] font-bold font-rajdhani uppercase leading-[64px] text-black">
@@ -25,7 +25,7 @@ const DetailSection = () => {
             </h1>
           </div>
 
-          <ul className="flex flex-col md:flex-row lg:flex-row md:items-center md:justify-center lg:items-start gap-2 flex-wrap lg:mt-8 mt-4">
+          <ul className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-start gap-2 flex-wrap lg:mt-8 mt-4">
             {listData.map((item, index) => (
               <li
                 key={index}
