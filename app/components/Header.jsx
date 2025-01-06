@@ -1,23 +1,30 @@
-'use client'
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import {usePathname } from 'next/navigation';
-import Logo from '@/image/Logo-1.svg'
-import Image from 'next/image';
-import Flipbook from './global/Flipbook';
-
+import React, { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import Logo from "@/image/Logo-1.svg";
+import Image from "next/image";
+import Flipbook from "./global/Flipbook";
 
 const Header = () => {
-  const pathname  = usePathname()
+  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   console.log(pathname);
-  
+
   return (
     <>
       <header className="bg-white/80 flex flex-wrap md:flex-nowrap justify-between items-center top-0 left-0 w-full z-[999] sticky backdrop-blur">
         <div className="flex items-center px-4 sm:px-8  md:pl-[50px] md:pr-[80px] py-[10px] md:py-[20px]">
-          <Link href="/"><Image src={Logo} alt="logo" width={300} height={90} className='w-[250px] md:w-[300px]' /></Link>
+          <Link href="/">
+            <Image
+              src={Logo}
+              alt="logo"
+              width={300}
+              height={90}
+              className="w-[250px] md:w-[300px]"
+            />
+          </Link>
         </div>
 
         <nav className="hidden lg:flex flex-wrap space-x-6 uppercase text-lg md:text-xl lg:text-2xl font-rajdhani font-bold">
@@ -29,30 +36,32 @@ const Header = () => {
           >
             HOME
           </Link>
-          <a
+          <Link
             href="/about-us"
             className={`hover:text-[#FF902E] ${
               pathname === "/about-us" ? "text-[#FF902E]" : "text-black"
             }`}
           >
             ABOUT US
-          </a>
-          <a
+          </Link>
+          <Link
             href="/countries-we-serve"
             className={`hover:text-[#FF902E] ${
-              pathname === "/countries-we-serve" ? "text-[#FF902E]" : "text-black"
+              pathname === "/countries-we-serve"
+                ? "text-[#FF902E]"
+                : "text-black"
             }`}
           >
             COUNTRIES WE SERVE
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact-us"
             className={`hover:text-[#FF902E] ${
               pathname === "/contact-us" ? "text-[#FF902E]" : "text-black"
             }`}
           >
             CONTACT US
-          </a>
+          </Link>
         </nav>
 
         <div className="hidden lg:flex flex-col lg:flex-row items-center mt-4 lg:mt-0">
@@ -84,60 +93,55 @@ const Header = () => {
           </div>
         </div>
 
-        
-
         <div
           className="lg:hidden text-black text-[50px] pr-[20px] mt-[5px] cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <i className={`bi ${menuOpen ? "bi-x" : "bi-list"}`}></i>
         </div>
-
       </header>
-        <div
-          className={`fixed top-[80px] left-0 w-full bg-white shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden transition-transform duration-300 ${
-            menuOpen ? "translate-x-0 visible" : "translate-x-full invisible"
+      <div
+        className={`fixed top-[80px] left-0 w-full bg-white shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden transition-transform duration-300 ${
+          menuOpen ? "translate-x-0 visible" : "translate-x-full invisible"
+        }`}
+      >
+        <Link
+          href="/"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/" ? "text-[#FF902E]" : "text-black"
           }`}
+          onClick={() => setMenuOpen(false)}
         >
-          
-          <Link
-            href="/"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === "/" ? "text-[#FF902E]" : "text-black"
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
-            href="/about-us"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === "/about-us" ? "text-[#FF902E]" : "text-black"
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            About Us
-          </Link>
-          <Link
-            href="/countries-we-serve"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === "/countries-we-serve" ? "text-[#FF902E]" : "text-black"
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            Countries We Serve
-          </Link>
-          <Link
-            href="/contact-us"
-            className={`text-lg font-bold hover:text-[#FF902E] ${
-              pathname === "/contact-us" ? "text-[#FF902E]" : "text-black"
-            }`}
-            onClick={() => setMenuOpen(false)}
-          >
-            Contact Us
-          </Link>
-        </div>
-        
+          Home
+        </Link>
+        <Link
+          href="/about-us"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/about-us" ? "text-[#FF902E]" : "text-black"
+          }`}
+          onClick={() => setMenuOpen(false)}
+        >
+          About Us
+        </Link>
+        <Link
+          href="/countries-we-serve"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/countries-we-serve" ? "text-[#FF902E]" : "text-black"
+          }`}
+          onClick={() => setMenuOpen(false)}
+        >
+          Countries We Serve
+        </Link>
+        <Link
+          href="/contact-us"
+          className={`text-lg font-bold hover:text-[#FF902E] ${
+            pathname === "/contact-us" ? "text-[#FF902E]" : "text-black"
+          }`}
+          onClick={() => setMenuOpen(false)}
+        >
+          Contact Us
+        </Link>
+      </div>
     </>
   );
 };

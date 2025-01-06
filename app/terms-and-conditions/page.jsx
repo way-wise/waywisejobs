@@ -53,11 +53,11 @@ const TermsAndConditions = () => (
         </p>
         <ul className="list-disc list-inside space-y-2 ">
           <li>
-            Job offers and contracts are subject to the employer's terms and
+            Job offers and contracts are subject to the employer&apos;s terms and
             conditions.
           </li>
           <li>
-            It is the candidate's responsibility to ensure compliance with visa
+            It is the candidate&apos;s responsibility to ensure compliance with visa
             and work permit requirements.
           </li>
         </ul>
