@@ -50,7 +50,7 @@ const Flipbook = () => {
                 // old link https://heyzine.com/flip-book/22813621d6.html
                 */}
                 <iframe
-                  src="https://heyzine.com/flip-book/5c587f0281.html"
+                  src="https://heyzine.com/flip-book/22813621d6.html"
                   className="w-full h-full border-none"
                   title="Flipbook"
                 />
