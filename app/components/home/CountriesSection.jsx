@@ -35,7 +35,7 @@ const CountriesSection = () => {
   ];
 
   return (
-    <section className='md:my-[100px] my-[10px] mx-[40px]'>
+    <section className='max-w-[1680px] mx-auto md:my-[100px] my-[10px]'>
       <h2 className="text-[20px] md:text-[48px] font-bold text-black  uppercase font-rajdhani leading-[20px] md:leading-[55px] md:mb-[45px] mb-[30px] md:mt-[20px] mt-[30px] text-center">
         Countries we serve
       </h2>

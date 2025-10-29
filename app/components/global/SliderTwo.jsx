@@ -66,7 +66,7 @@ export default function SliderTwo() {
   };
 
   return (
-    <div className="relative z-50 px-4 lg:px-8">
+    <div className="relative z-50 max-w-[1680px] mx-auto">
       <Slider {...settings}>
         {sliderData.map((item, index) => (
           <div

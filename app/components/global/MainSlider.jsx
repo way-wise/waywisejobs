@@ -80,7 +80,7 @@ export default function MainSlider() {
     <Slider {...settings}>
       {sliderData.map((item, index) => (
         <div
-          className="lg:h-[700px] md:h-[500px] h-[300px] w-full !flex justify-center items-end focus:outline-none relative"
+          className="max-w-[1680px] mx-auto lg:h-[700px] md:h-[500px] h-[300px] w-full !flex justify-center items-end focus:outline-none relative"
           key={index}
         >
           <img
