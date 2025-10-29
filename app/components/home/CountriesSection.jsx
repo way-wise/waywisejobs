@@ -9,6 +9,12 @@ const CountriesSection = () => {
 
   const countries = [
     {
+      country: ["UAE"],
+      image: MiddleEast.src,
+      tag: "UAE",
+      link: "/UAE-job-profile.pdf"
+    },
+    {
       country: ["Canada", "United States"],
       image: NorthAmerica.src,
       tag: "North America",
@@ -21,12 +27,6 @@ const CountriesSection = () => {
       link: "/countries-we-serve/asia",
     },
     {
-      country: ["UAE", "Saudi Arabia"],
-      image: MiddleEast.src,
-      tag: "Middle East",
-      link: "/countries-we-serve/middle-east"
-    },
-    {
       country: ["Italy"],
       image: Europe.src,
       tag: "Europe",
@@ -35,11 +35,11 @@ const CountriesSection = () => {
   ];
 
   return (
-    <section className='max-w-[1680px] mx-auto md:my-[100px] my-[10px]'>
+    <section className='max-w-[1200px] mx-auto md:my-[100px] my-[10px]'>
       <h2 className="text-[20px] md:text-[48px] font-bold text-black  uppercase font-rajdhani leading-[20px] md:leading-[55px] md:mb-[45px] mb-[30px] md:mt-[20px] mt-[30px] text-center">
         Countries we serve
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
         {countries.map((country, index) => (
           <CountriesCard key={index} {...country} index={index}  />
         ))}

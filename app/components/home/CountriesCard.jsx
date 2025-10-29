@@ -6,8 +6,8 @@ import Link from "next/link";
 const CountriesCard = ({country, image, tag, link, index}) => {
 
   return (
-    <Link href={link}>
-      <div className="md:mb-[18px] group" style={{boxShadow: "0 5px 5px rgb(229 231 235)"}}>
+    <Link href={link} className={`${index === 0 ? 'col-span-full' : ''}`}>
+      <div className={`${index === 0 ? 'max-w-[600px] mx-auto' : 'md:mb-[30px]'} group`} style={{boxShadow: "0 5px 5px rgb(229 231 235)"}}>
         <div
           className={` text-white h-[60px] flex  items-center font-rajdhani font-bold text-[20px] leading-[28px] md:text-[30px] md:leading-[32px] px-[10px] bg-black`}
         >
