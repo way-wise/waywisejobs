@@ -42,7 +42,7 @@ export default function MainSlider() {
     return (
       <div
         onClick={onClick}
-        className="absolute top-[150px] right-0 lg:top-[350px] md:top-[250px] md:right-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 translate-[-top[50%]"
+        className="absolute top-[150px] right-0 lg:top-[350px] md:top-[250px] md:right-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 -translate-y-1/2"
       >
         <i className="bi bi-arrow-right text-2xl"></i>
       </div>
@@ -55,7 +55,7 @@ export default function MainSlider() {
     return (
       <div
         onClick={onClick}
-        className="absolute top-[150px] lg:top-[350px] md:top-[250px] md:left-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 translate-[-top[50%]"
+        className="absolute top-[150px] lg:top-[350px] md:top-[250px] md:left-10 text-white bg-transparent cursor-pointer p-2 rounded-full z-10 -translate-y-1/2"
       >
         <i className="bi bi-arrow-left text-2xl"></i>
       </div>
