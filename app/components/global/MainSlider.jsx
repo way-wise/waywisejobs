@@ -5,8 +5,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider1 from "@/image/Hero1 1.png";
-import Slider2 from "@/image/Slider-2.jpg";
+import Slider1 from "@/image/slider-01.png";
+import Slider2 from "@/image/slider-02.png";
 import Slider3 from "@/image/Slider-3.jpg";
 import Slider5 from "@/image/Slider-5.jpg";
 
@@ -23,16 +23,16 @@ export default function MainSlider() {
       description:
         "We make your path to global opportunities simple and stress-free.",
     },
-    {
-      image: Slider3.src,
-      title: "Bridge to Opportunities",
-      description: "Connect with high-demand jobs worldwide effortlessly.",
-    },
-    {
-      image: Slider5.src,
-      title: "Your Career Awaits!",
-      description: "Step into a brighter future with Way-Wise Jobs.",
-    },
+    // {
+    //   image: Slider3.src,
+    //   title: "Bridge to Opportunities",
+    //   description: "Connect with high-demand jobs worldwide effortlessly.",
+    // },
+    // {
+    //   image: Slider5.src,
+    //   title: "Your Career Awaits!",
+    //   description: "Step into a brighter future with Way-Wise Jobs.",
+    // },
   ];
 
 
@@ -92,7 +92,7 @@ export default function MainSlider() {
             <div className="text-[10px] md:text-[20px] font-bold text-white  bg-[#FF902E] uppercase inline-block px-4 py-2 ">
               <p>{item.title}</p>
             </div>
-            <h2 className="text-[20px] md:text-[40px] font-bold text-white uppercase">
+            <h2 className="max-w-[600px] text-[20px] md:text-[40px] font-bold text-white uppercase">
               {item.description}
             </h2>
           </div>
